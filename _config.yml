@@ -9,7 +9,7 @@ description: "Club Cedille Description"
 color:
   primary: fed136
   secondary: fec503 
-  secondary-dark: 000
+  secondary-dark: '000'
 
 # Team names, titles and social links
 people:
