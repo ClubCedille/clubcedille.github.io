@@ -1,0 +1,15 @@
+# Team names, titles and social links
+title: Membres
+description: Description goes here
+
+people:
+  - name: Riku Avelar
+    pic: riku
+    position: Javascript Pilgrim
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: stack-overflow
+        url: #

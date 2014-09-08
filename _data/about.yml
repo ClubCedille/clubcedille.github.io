@@ -1,0 +1,15 @@
+title: Qui-sommes nous?
+description: Nous sommes un Club d'Expérimentation Devops et (I) Logiciel Libre et Embarqué
+
+whatis:
+  - title: DevOps
+    icon: cogs
+    description: Portmanteau of Developpment Operations
+
+  - title: Logiciel Libre
+    icon: code-fork
+    description: Open Source
+
+  - title: Embarqué
+    icon: code
+    description: may need a better icon
