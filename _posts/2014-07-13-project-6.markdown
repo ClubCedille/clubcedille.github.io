@@ -10,3 +10,10 @@ category: Web Development
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 ---
+
+This is an article, therefore it has text
+
+Seeing as how it's markdown, it can:
+
+* Do things like this
+* or this
