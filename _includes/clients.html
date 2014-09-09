@@ -5,7 +5,7 @@
               {% for client in site.data.clients %}
                 <div class="{% if forloop.length < 4 %}col-sm-{{12 | divided_by: forloop.length}}{% else %} col-md-3 col-sm-6 {% endif %}">
                     <a href="{{client.website}}">
-                        <img src="img/logos/{{client.logo}}" class="img-responsive img-centered" alt="{{client.name}}" title="{{client.name}}">
+                        <img src="{{site.baseurl}}/img/logos/{{client.logo}}" class="img-responsive img-centered" alt="{{client.name}}" title="{{client.name}}">
                     </a>
                 </div>
               {% endfor %}

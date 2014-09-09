@@ -1,4 +1,5 @@
-url: http://clubcedille.github.io/cedille-homepage
+url: http://clubcedille.github.io
+baseurl: /cedille-homepage
 
 # Site settings
 title: Club Cedille
@@ -24,23 +25,17 @@ color:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url: http://facebook.com/clubcedille
   - title: github
-    url: http://github.com/jekyll
+    url: http://github.com/ClubCedille
 
 # Postal address (add as many lines as necessary)
 address:
   - line: Cedille
   - line: 1100, rue Notre-Dame Ouest
   - line: Montréal (Québec) H3C 1K3
-  - line: Local A-174?
+  - line: Local A-1726
 
 # Build settings
 markdown: kramdown

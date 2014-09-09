@@ -15,6 +15,6 @@ projectDate: April 2014
 
 ---
 
-![This is an image of the project](/img/portfolio/escape-preview.png)
+![This is an image of the project]({{site.baseurl}}/img/portfolio/escape-preview.png)
 
 Project Description

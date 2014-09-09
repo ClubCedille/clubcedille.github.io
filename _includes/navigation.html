@@ -9,7 +9,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="{% if page.staticNavbar %}/{% endif %}#page-top">{{site.title}}</a>
+                <a class="navbar-brand page-scroll" href="{% if page.staticNavbar %}{{site.baseurl}}/{% endif %}#page-top">{{site.title}}</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -19,19 +19,19 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="{% if page.staticNavbar %}/{% endif %}#about">{{site.data.about.title}}</a>
+                        <a class="page-scroll" href="{% if page.staticNavbar %}{{site.baseurl}}/{% endif %}#about">{{site.data.about.title}}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="{% if page.staticNavbar %}/{% endif %}#portfolio">{{site.data.portfolio.title}}</a>
+                        <a class="page-scroll" href="{% if page.staticNavbar %}{{site.baseurl}}/{% endif %}#portfolio">{{site.data.portfolio.title}}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="{% if page.staticNavbar %}/{% endif %}#news">{{site.data.news.title}}</a>
+                        <a class="page-scroll" href="{% if page.staticNavbar %}{{site.baseurl}}/{% endif %}#news">{{site.data.news.title}}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="{% if page.staticNavbar %}/{% endif %}#members">{{site.data.members.title}}</a>
+                        <a class="page-scroll" href="{% if page.staticNavbar %}{{site.baseurl}}/{% endif %}#members">{{site.data.members.title}}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="{% if page.staticNavbar %}/{% endif %}#contact">Contact</a>
+                        <a class="page-scroll" href="{% if page.staticNavbar %}{{site.baseurl}}/{% endif %}#contact">Contact</a>
                     </li>
                 </ul>
             </div>
