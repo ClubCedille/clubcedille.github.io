@@ -37,8 +37,10 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Cedille
+  - line: 1100, rue Notre-Dame Ouest
+  - line: Montréal (Québec) H3C 1K3
+  - line: Local A-174?
 
 # Build settings
 markdown: kramdown
