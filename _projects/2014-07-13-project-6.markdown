@@ -1,19 +1,16 @@
 ---
 layout: default
-modal-id: 6
-date: 2014-07-15
-img: roundicons-free.png
+date: 2014-07-17
+img: escape-preview.png
+thumb: escape.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
 category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+client: Start Bootstrap
+description: "Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse."
+projectDate: April 2014
 
 ---
 
-This is an article, therefore it has text
+# Project Name
 
-Seeing as how it's markdown, it can:
-
-* Do things like this
-* or this
+Project Description
