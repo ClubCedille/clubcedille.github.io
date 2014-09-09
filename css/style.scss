@@ -30,3 +30,15 @@ header{
 .article-wrap{
   color: #777;
 }
+
+.news-posts{
+  article{
+    border-bottom: 1px solid #ccc;
+  }
+}
+
+.news-feed{
+  iframe{
+    width:100%;
+  }
+}

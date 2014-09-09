@@ -14,6 +14,7 @@ lead:
 # Resource types
 collections:
   # - posts
+  - projects
 
 # Color settings (hex-codes without the leading hash-tag)
 color:

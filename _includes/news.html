@@ -1,26 +1,35 @@
 <!-- About Section -->
     <section id="news">
         <div class="container">
-          <div class="col-md-6">
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">{{ site.data.news.title }}</h2>
+                  <h3 class="section-subheading text-muted">{{ site.data.news.description }}</h3>
+              </div>
+          </div>
+          <div class="col-md-5 news-posts">
             {% for post in site.posts %}
               {% unless post.next %}
-                <h3>{{ post.date | date: '%Y' }}</h3>
+                <h3 class="text-muted">{{ post.date | date: '%Y' }}</h3>
                 {% else %}
                   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
                   {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
                   {% if year != nyear %}
-                    <h3>{{ post.date | date: '%Y' }}</h3>
+                    <h3 class="text-muted">{{ post.date | date: '%Y' }}</h3>
                   {% endif %}
                 {% endunless %}
-                <article>
+                <article {% if forloop.first %}class="first"{% endif %}>
                   {% if post.link %}
                     <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></h2>
                   {% else %}
                     <h2><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-                    <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+                    <p clas="text-muted">{{ post.excerpt | strip_html | truncate: 160 }}</p>
                   {% endif %}
                 </article>
             {% endfor %}
+          </div>
+          <div class="col-md-5 col-md-offset-2 news-feed">
+            <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fclubcedille&amp;width&amp;height=427&amp;colorscheme=light&amp;show_faces=false&amp;header=true&amp;stream=true&amp;show_border=false&amp;appId=727283467298745" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:427px;" allowTransparency="true"></iframe>
           </div>
         </div>
     </section>
