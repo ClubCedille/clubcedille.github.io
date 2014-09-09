@@ -3,6 +3,12 @@ Cedille Homepage
 
 Cedille Homepage, generated using Jekyll and themed with [Agency jekyll theme ](https://github.com/y7kim/agency-jekyll-theme)
 
+# Setup
+
+Requirements:
+  * Ruby
+  * Jekyll (`gem install jekyll`)
+
 # How to use
 
 ### General
