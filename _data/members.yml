@@ -4,7 +4,8 @@ description: Description goes here
 footer: Footer goes here
 
 people:
-  - name: Riku Avelar
+  riku:
+    name: Riku Avelar
     pic: riku
     position: Javascript Pilgrim
     social:
