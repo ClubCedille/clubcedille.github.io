@@ -15,3 +15,12 @@ people:
         url: #
       - title: stack-overflow
         url: #
+
+  mosieurlaurin:
+    name: Patrick Laurin
+    email: patrick.laurin.3@ens.etsmtl.ca
+    position: Capitaine
+    social:
+      - title: facebook
+        url: #
+    pic: mosieurlaurin
