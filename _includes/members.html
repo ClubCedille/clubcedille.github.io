@@ -12,7 +12,11 @@
                 {% assign member = hash[1] %}
                 <div class="{% if forloop.length < 3 %}col-sm-{{12 | divided_by: forloop.length}} {% else %}col-sm-4{% endif %}">
                     <div class="team-member">
-                        <img src="{{site.baseurl}}/img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
+                    {% if member.pic %}
+                        <img src="{{site.baseurl}}/img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="{{member.name}}">
+                    {% else %}
+                        <img src="{{member.email | to_gravatar}}?s=225&d=mm" alt="{{member.name}}">
+                    {% endif %}
                         <h4>{{ member.name }}</h4>
                         <p class="text-muted">{{ member.position }}</p>
                         <ul class="list-inline social-buttons">

@@ -6,7 +6,7 @@ footer: Footer goes here
 people:
   riku:
     name: Riku Avelar
-    pic: riku
+    email: riku.avelar@gmail.com
     position: Javascript Pilgrim
     social:
       - title: twitter
