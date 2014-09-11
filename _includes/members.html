@@ -8,7 +8,8 @@
                 </div>
             </div>
             <div class="row">
-                {% for member in site.data.members.people %}
+                {% for hash in site.data.members.people %}
+                {% assign member = hash[1] %}
                 <div class="{% if forloop.length < 3 %}col-sm-{{12 | divided_by: forloop.length}} {% else %}col-sm-4{% endif %}">
                     <div class="team-member">
                         <img src="{{site.baseurl}}/img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="">
