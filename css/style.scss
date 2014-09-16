@@ -23,10 +23,16 @@ header{
 	}
 }
 
-.navbar-static.navbar{
-  background: #222;
-  margin-bottom:0;
-  border-radius:0;
+.navbar{
+  &.navbar-static{
+    background: #222;
+    margin-bottom:0;
+    border-radius:0;
+  }
+  .navbar-brand{
+    margin-bottom:0;
+    background-color: rgba(238, 153, 17, 0.15);
+  }
 }
 
 .breadcrumb{
@@ -51,4 +57,18 @@ header{
 
 #contact{
   background-attachment: fixed;
+}
+
+@media (min-width: 768px){
+  header .container .intro-text{
+    padding-top: 100px;
+  }
+}
+
+.filter-invert{
+  -webkit-filter:#{'invert()'};
+  -ms-filter:#{'invert()'};
+  -opera-filter:#{'invert()'};
+  -moz-filter:#{'invert()'};
+  filter:#{'invert()'};
 }
