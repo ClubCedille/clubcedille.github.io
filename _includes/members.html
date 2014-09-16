@@ -3,17 +3,17 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{ site.data.members.title }}</h2>
-                    <h3 class="section-subheading text-muted">{{ site.data.members.description }}</h3>
+                    <h2 class="section-heading">{{ site.data.[page.lang].members.title }}</h2>
+                    <h3 class="section-subheading text-muted">{{ site.data.[page.lang].members.description }}</h3>
                 </div>
             </div>
             <div class="row">
-                {% for hash in site.data.members.people %}
+                {% for hash in site.data.[page.lang].members.people %}
                 {% assign member = hash[1] %}
                 <div class="{% if forloop.length < 3 %}col-sm-{{12 | divided_by: forloop.length}} {% else %}col-sm-4{% endif %}">
                     <div class="team-member">
                     {% if member.pic %}
-                        <img src="{{site.baseurl}}/img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="{{member.name}}">
+                        <img src="{{site.baseurl}}/img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="{{member.nam}}">
                     {% else %}
                         <img src="{{member.email | to_gravatar}}?s=225&d=mm" alt="{{member.name}}">
                     {% endif %}
@@ -31,7 +31,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">{{ site.data.members.footer }}</p>
+                    <p class="large text-muted">{{ site.data.[page.lang].members.footer }}</p>
                 </div>
             </div>
         </div>

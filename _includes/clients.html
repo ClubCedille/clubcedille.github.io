@@ -2,7 +2,7 @@
     <aside class="clients">
         <div class="container">
             <div class="row">
-              {% for client in site.data.clients %}
+              {% for client in site.data.[page.lang].clients %}
                 <div class="{% if forloop.length < 4 %}col-sm-{{12 | divided_by: forloop.length}}{% else %} col-md-3 col-sm-6 {% endif %}">
                     <a href="{{client.website}}">
                         <img src="{{site.baseurl}}/img/logos/{{client.logo}}" class="img-responsive img-centered" alt="{{client.name}}" title="{{client.name}}">
