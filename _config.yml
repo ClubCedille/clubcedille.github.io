@@ -6,12 +6,6 @@ email: clubcedille@gmail.com
 description: "Club Cedille Description"
 avatar: https://avatars3.githubusercontent.com/u/6483038
 
-# Splash page settings
-lead:
-  intro: Bienvenue au Club Cedille
-  head: It's nice to meet you
-  more: Tell me more
-
 # Resource types
 collections:
   # - posts
