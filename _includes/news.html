@@ -8,7 +8,7 @@
               </div>
           </div>
           <div class="col-md-5 news-posts">
-            {% for post in site.posts %}
+            {% for post in site.categories.[page.lang] %}
               {% unless post.next %}
                 <h3 class="text-muted">{{ post.date | date: '%Y' }}</h3>
                 {% else %}
