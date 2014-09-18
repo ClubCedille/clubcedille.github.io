@@ -1,25 +1,25 @@
 # Team names, titles and social links
 title: Membres
-description: Description goes here
-footer: Footer goes here
+description: 
+footer: Et beaucoup plus!
 
 people:
+  mosieurlaurin:
+    name: Patrick Laurin
+    email: patrick.laurin.3@ens.etsmtl.ca
+    position: Capitaine
+    pic: mosieurlaurin
+    social:
+      - title: facebook
+        url: #
+
   riku:
     name: Riku Avelar
     email: riku.avelar@gmail.com
-    position: Javascript Pilgrim
+    position: Pilgrim Javascript
     pic: riku
     social:
       - title: twitter
         url: https://twitter.com/RikuAvelar
       - title: facebook
         url: https://www.facebook.com/riku.avelar
-
-  mosieurlaurin:
-    name: Patrick Laurin
-    email: patrick.laurin.3@ens.etsmtl.ca
-    position: Capitaine
-    social:
-      - title: facebook
-        url: #
-    pic: mosieurlaurin
