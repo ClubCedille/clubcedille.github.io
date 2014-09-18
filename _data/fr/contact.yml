@@ -1,0 +1,14 @@
+title: Contact
+description: Question? Commentaire? Envoyez nous-là par courriel ou visitez nous à notre local
+
+email:
+    placeholder: Votre Courriel
+    validation: Vous devez écrire un courriel valide
+name:
+    placeholder: Votre Nom
+    validation: Vous devez écrire votre nom
+message:
+    placeholder: Votre Message
+    validation: Vous devez écrire un message
+    
+submit: Soumettre
