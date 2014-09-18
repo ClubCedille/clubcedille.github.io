@@ -14,18 +14,24 @@
                         <div class="modal-body">
                             {{project.content}}
                             <ul class="list-inline item-details">
+                            {% if project.client %}
                                 <li>Client:
                                     <strong><a href="http://startbootstrap.com">{{ project.client }}</a>
                                     </strong>
                                 </li>
+                            {% endif %}
+                            {% if project.date %}
                                 <li>Date:
                                     <strong><a href="http://startbootstrap.com">{{ project.projectDate }}</a>
                                     </strong>
                                 </li>
-                                <li>Service:
+                            {% endif %}
+                            {% if project.category %}
+                                <li>Type:
                                     <strong><a href="http://startbootstrap.com">{{ project.category }}</a>
                                     </strong>
                                 </li>
+                            {% endif %}
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>

@@ -32,6 +32,10 @@ header{
   .navbar-brand{
     margin-bottom:0;
     background-color: rgba(238, 153, 17, 0.15);
+    
+    &:hover{
+      background-color: rgba(238, 153, 17, 0.3);
+    }
   }
 }
 
