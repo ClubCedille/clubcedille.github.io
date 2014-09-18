@@ -1,15 +1,15 @@
 title: Qui-sommes nous?
-description: Nous sommes un Club d'Expérimentation Devops et (I) Logiciel Libre et Embarqué
+description: Nous sommes un Club d'Expérimentation Devops et Intégration Logiciel Libre et Embarqué
 
 whatis:
   - title: DevOps
     icon: cogs
-    description: Portmanteau of Developpment Operations
+    description: Le DevOps, ou "Developpment Operations", est l'idée de créer des tâches controllables et automatisés pour faire des tâches répétitives, surtoût avec les serveurs. <br>Pensez à Google qui ont des centaines de serveurs pour rouler leurs logiciels. <br>À la place de réinstaller tout à nouveau, on créer une tâche automatisé qui fait les étapes nécessaires pour nous! <br><br>Le Devops, c'est le un qui controle le tout.
 
   - title: Logiciel Libre
     icon: code-fork
-    description: Open Source
+    description: Les Logiciels Libres ont l'avantage d'être visibles.  <br>Étant ouvert, on peut être confiant de son code, on peut apprendre sont fonctionnement, et on peut l'améliorer pour tous. <br><br>Du code libre et ouvert, c'est du code fiable.  
 
   - title: Embarqué
     icon: code
-    description: may need a better icon
+    description: Toute machine a besoin de code pour le rouler.<br> On utilise alors des systèmes embarqués ouverts, tel que Arduino et Raspberry Pi, pour controller des machines commes des Cafetsières<br> On peut donc controller des circuits électriques avec un mini-ordinateur par le Web<br> <br>L'embarqué, c'est le marriage parfait entre l'électrique et le logiciel libre
