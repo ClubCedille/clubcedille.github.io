@@ -12,3 +12,6 @@ message:
     validation: Vous devez écrire un message
     
 submit: Soumettre
+
+success: Merci! On lira votre message d'ici peu
+failure: Hm... Il semble que nous n'avons pas encore fini cette fonction. Nous allons réparé cela d'ici à peu. Si vous avez un message à nous envoyer, vous pouvez nous rejoindre par Facebook.
