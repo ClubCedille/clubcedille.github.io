@@ -13,6 +13,15 @@ people:
       - title: facebook
         url: #
 
+  samuel:
+    name: Samuel Cardinal
+    email: samdidos@gmail.com
+    position: Chef d'équipe systèmes embarqués
+    pic: samuel
+    social:
+      - title: facebook
+        url: https://www.facebook.com/samdidos
+
   riku:
     name: Riku Avelar
     email: riku.avelar@gmail.com
