@@ -4,7 +4,14 @@ url: http://clubcedille.github.io
 title: Club Cedille
 email: clubcedille@gmail.com
 description: "Club Cedille Description"
-image: "/img/logos/cedille-logo-white.png"
+image: "/img/logos/cedille-logo-black.png"
+
+photoAttribution:
+  title: Photo
+  author: Arkadiusz Sikorski
+  photoLink: https://www.flickr.com/photos/arakus/8077218145/
+  license: CC BY 2.0
+  licenseLink: https://creativecommons.org/licenses/by/2.0/
 
 # Resource types
 collections:

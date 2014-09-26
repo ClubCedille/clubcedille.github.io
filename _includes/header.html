@@ -9,6 +9,12 @@
                 <a href="#about" class="page-scroll btn btn-xl">{{ site.data.[page.lang].home.more }}</a>
             </div>
         </div>
+        
+    {% if site.photoAttribution %}
+        <div class="photo-attribution panel-footer text-muted">
+            {{site.photoAttribution.title}} by <a href="{{site.photoAttribution.photoLink}}">{{site.photoAttribution.author}}</a> ( <a href="{{site.photoAttribution.licenseLink}}">{{site.photoAttribution.license}}</a> )
+        </div>
+    {% endif %}    
     </header>
 <!--
         {% for page in site.pages %}
