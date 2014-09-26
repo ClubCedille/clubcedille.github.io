@@ -23,3 +23,13 @@ people:
         url: https://twitter.com/RikuAvelar
       - title: facebook
         url: https://www.facebook.com/riku.avelar
+
+  hanen:
+    name: Hanen Garcia
+    email: hanen.garcia-gamardo.1@etsmtl.net
+    position: Geek
+    pic: hanen
+    social:
+      - title: google-plus
+        url: https://plus.google.com/101046509669299132366
+
