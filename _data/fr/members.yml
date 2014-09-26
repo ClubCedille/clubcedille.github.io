@@ -32,4 +32,9 @@ people:
     social:
       - title: google-plus
         url: https://plus.google.com/101046509669299132366
-
+  
+  dmitri:
+    name: Dmitri Kolytchev
+    email: kolytchev.d@gmail.com
+    position: Python Charmer
+    pic: dmitri
