@@ -19,8 +19,8 @@ people:
     position: Chef d'équipe systèmes embarqués
     pic: samuel
     social:
-      - title: facebook
-        url: https://www.facebook.com/samdidos
+      - title: google-plus
+        url: https://plus.google.com/u/0/116303569391574948806
 
   riku:
     name: Riku Avelar
@@ -40,7 +40,7 @@ people:
     pic: hanen
     social:
       - title: google-plus
-        url: https://plus.google.com/101046509669299132366
+        url: https://plus.google.com/+HanenGarciaGamardo
   
   dmitri:
     name: Dmitri Kolytchev
