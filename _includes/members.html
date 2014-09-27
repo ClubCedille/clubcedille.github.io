@@ -10,6 +10,13 @@
             <div class="row">
                 {% for hash in site.data.[page.lang].members.people %}
                 {% assign member = hash[1] %}
+                    {% capture startRow %}{% cycle 'memberModule': 'true', 'false', 'false' %}{% endcapture %}
+                    {% if startRow == 'true' %}
+                        {% if forloop.index != 1 %}
+                            </div>
+                        {% endif %}
+                            <div class="row">
+                    {% endif %}
                 <div class="{% if forloop.length < 3 %}col-sm-{{12 | divided_by: forloop.length}} {% else %}col-sm-4{% endif %}">
                     <div class="team-member">
                     {% if member.pic %}
@@ -28,6 +35,7 @@
                     </div>
                 </div>
                 {% endfor %}
+                </div>
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
