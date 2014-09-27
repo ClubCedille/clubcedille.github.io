@@ -11,6 +11,10 @@ message:
     placeholder: Votre Message
     validation: Vous devez écrire un message
     
+buttons:
+    contact: Demande d'information
+    adhesion: Demande d'adhesion
+    
 submit: Soumettre
 
 success: Merci! On lira votre message d'ici peu

@@ -7,7 +7,13 @@
                 </div>
             </div>
             <div class="row">
-                <iframe src="https://docs.google.com/forms/d/1kGssFmamqVic62qRSVy-btNfWdEHjQgRZ7uvz6eKUlY/viewform?embedded=true" class="col-md-12" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                <div class="btn-group btn-group-justified form-selector">
+                    <a class="btn btn-primary active" data-target="#contact-form">{{site.data.[page.lang].contact.buttons.contact}}</a>
+                    <a class="btn btn-primary" data-target="#adhesion-form">{{site.data.[page.lang].contact.buttons.adhesion}}</a>
+                </div>
+                <br><br>
+                <iframe id="contact-form" class="google-form col-md-12" src="https://docs.google.com/forms/d/1a0we6HV6gtl8dCOcWrW2vj98jRo-nOEhEM7ed1MX1cA/viewform?usp=send_form" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                <iframe id="adhesion-form" class="google-form col-md-12 hidden" src="https://docs.google.com/forms/d/1kGssFmamqVic62qRSVy-btNfWdEHjQgRZ7uvz6eKUlY/viewform?embedded=true" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
             </div>
         </div>
     </section>
