@@ -13,15 +13,30 @@ people:
       - title: facebook
         url: #
 
+   hanen:
+    name: Hanen Garcia
+    email: hanen.garcia-gamardo.1@etsmtl.net
+    position: Co-Capitaine
+    pic: hanen
+    social:
+      - title: google-plus
+        url: https://plus.google.com/+HanenGarciaGamardo
+  
   samuel:
     name: Samuel Cardinal
     email: samdidos@gmail.com
-    position: Chef d'équipe systèmes embarqués
+    position: Chef d'équipe volet Systèmes Embarqués
     pic: samuel
     social:
       - title: google-plus
         url: https://plus.google.com/u/0/116303569391574948806
 
+  pierre-luc:
+    name: Pierre-Luc Wagner
+    email: hanen.garcia-gamardo.1@etsmtl.net
+    position: Chef d'équipe volet Formation/Conférences
+    pic: pierre-luc
+  
   riku:
     name: Riku Avelar
     email: riku.avelar@gmail.com
@@ -33,16 +48,7 @@ people:
       - title: google-plus
         url: https://plus.google.com/u/0/102156113739688652693
 
-  hanen:
-    name: Hanen Garcia
-    email: hanen.garcia-gamardo.1@etsmtl.net
-    position: Geek
-    pic: hanen
-    social:
-      - title: google-plus
-        url: https://plus.google.com/+HanenGarciaGamardo
-  
-  dmitri:
+ dmitri:
     name: Dmitri Kolytchev
     email: kolytchev.d@gmail.com
     position: Python Charmer
