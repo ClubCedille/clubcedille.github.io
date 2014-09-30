@@ -1,4 +1,4 @@
-[![Stories in Ready](https://badge.waffle.io/ClubCedille/clubcedille.github.io.png?label=ready&title=Ready)](https://waffle.io/ClubCedille/clubcedille.github.io)
+[![Stories in Ready](https://badge.waffle.io/ClubCedille/clubcedille.github.io.png?label=ready&title=Ready)](https://waffle.io/ClubCedille/clubcedille.github.io) [![Build Status](https://travis-ci.org/ClubCedille/clubcedille.github.io.svg)](https://travis-ci.org/ClubCedille/clubcedille.github.io)
 Cedille Homepage
 ====================
 
