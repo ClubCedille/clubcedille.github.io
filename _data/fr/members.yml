@@ -1,6 +1,6 @@
 # Team names, titles and social links
 title: Membres
-description: 
+description: ""
 footer: Et beaucoup plus!
 
 people:
@@ -13,7 +13,7 @@ people:
       - title: facebook
         url: #vide
 
-   hanen:
+  hanen:
     name: Hanen Garcia
     email: hanen.garcia-gamardo.1@etsmtl.net
     position: Co-Capitaine
@@ -48,7 +48,7 @@ people:
       - title: google-plus
         url: https://plus.google.com/u/0/102156113739688652693
 
- dmitri:
+  dmitri:
     name: Dmitri Kolytchev
     email: kolytchev.d@gmail.com
     position: Python Charmer
