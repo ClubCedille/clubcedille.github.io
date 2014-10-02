@@ -1,17 +1,17 @@
 # Team names, titles and social links
 title: Membres
-description: 
+description: ""
 footer: Et beaucoup plus!
 
 people:
- mosieurlaurin:
+  mosieurlaurin:
     name: Patrick Laurin
     email: patrick.laurin.3@ens.etsmtl.ca
     email: mosieurlaurin@gmail.com
     position: Capitaine et cofondateur de Cedille
     pic: mosieurlaurin
 
- hanen:
+  hanen:
     name: Hanen Garcia
     email: hanen.garcia-gamardo.1@etsmtl.net
     position: Co-Capitaine
@@ -20,13 +20,13 @@ people:
       - title: google-plus
         url: https://plus.google.com/+HanenGarciaGamardo
   
- michael:
+  michael:
     name: Michael Faille
     email: michael.faille.1@ens.etsmtl.ca
     position: Cofondateur de Cedille (ancien capitaine)
     pic: michael
 
- samuel:
+  samuel:
     name: Samuel Cardinal
     email: samdidos@gmail.com
     position: Chef d'équipe volet Systèmes Embarqués
@@ -35,7 +35,7 @@ people:
       - title: google-plus
         url: https://plus.google.com/u/0/116303569391574948806
 
- pierre-luc:
+  pierre-luc:
     name: Pierre-Luc Wagner
     email: pierreluc.wagner@gmail.com
     position: Chef d'équipe volet Formation/Conférences
@@ -45,7 +45,8 @@ people:
         url: https://www.linkedin.com/pub/pierre-luc-wagner/4a/b9b/42a
         title: google-plus
         url: https://plus.google.com/u/0/+PierreLucWagner
- riku:
+
+  riku:
     name: Riku Avelar
     email: riku.avelar@gmail.com
     position: Pilgrim Javascript
@@ -56,13 +57,13 @@ people:
       - title: google-plus
         url: https://plus.google.com/u/0/102156113739688652693
 
- dmitri:
+  dmitri:
     name: Dmitri Kolytchev
     email: kolytchev.d@gmail.com
     position: Python Charmer
     pic: dmitri
 
- barbara:
+  barbara:
     name: Barbara Cokou Goudjo
     email: goubarco@gmail.com
     position: Membre

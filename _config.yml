@@ -49,3 +49,9 @@ defaults:
 markdown: kramdown
 permalink: pretty
 highlighter: pygments
+
+exclude: 
+  - LICENSE
+  - README.md
+  - Gemfile
+  - .travis.yml
