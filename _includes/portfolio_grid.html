@@ -9,6 +9,7 @@
             </div>
             <div class="row">
               {% for project in site.projects %}
+              {% capture projectName %}{{project.content | newline_to_br | split: "<br />" | first | strip_html }}{% endcapture %}
                 <div class="{% if forloop.length < 3 %}col-sm-{{12 | divided_by: forloop.length}}{% else %} col-md-4 col-sm-6 {% endif %} portfolio-item">
                     <a href="#portfolioModal{{forloop.index}}" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
@@ -16,10 +17,10 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="{{site.baseurl}}/img/portfolio/{{project.thumb}}" class="img-responsive" alt="">
+                        <img src="{{site.baseurl}}/img/portfolio/{{project.thumb}}" alt="{{projectName}}" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>{{project.content | newline_to_br | split: "<br />" | first | strip_html }}</h4>
+                        <h4>{{projectName}}</h4>
                         <p class="text-muted">{{project.category}}</p>
                     </div>
                 </div>

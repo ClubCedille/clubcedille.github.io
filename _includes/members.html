@@ -28,7 +28,9 @@
                         <p class="text-muted">{{ member.position }}</p>
                         <ul class="list-inline social-buttons">
                             {% for network in member.social %}
+                                {% if network.url %}
                             <li><a target="_blank" href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
+                                {% endif %}
                             {% endfor %}
 
                         </ul>
