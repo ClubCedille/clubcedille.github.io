@@ -7,11 +7,9 @@ people:
   mosieurlaurin:
     name: Patrick Laurin
     email: patrick.laurin.3@ens.etsmtl.ca
-    position: Capitaine
+    email: mosieurlaurin@gmail.com
+    position: Capitaine et cofondateur de Cedille
     pic: mosieurlaurin
-    social:
-      - title: facebook
-        url: #vide
 
   hanen:
     name: Hanen Garcia
@@ -22,6 +20,12 @@ people:
       - title: google-plus
         url: https://plus.google.com/+HanenGarciaGamardo
   
+  michael:
+    name: Michael Faille
+    email: michael.faille.1@ens.etsmtl.ca
+    position: Cofondateur de Cedille (ancien capitaine)
+    pic: michael
+
   samuel:
     name: Samuel Cardinal
     email: samdidos@gmail.com
@@ -33,10 +37,15 @@ people:
 
   pierre-luc:
     name: Pierre-Luc Wagner
-    email: #vide
+    email: pierreluc.wagner@gmail.com
     position: Chef d'équipe volet Formation/Conférences
     pic: pierre-luc
-  
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/pub/pierre-luc-wagner/4a/b9b/42a
+        title: google-plus
+        url: https://plus.google.com/u/0/+PierreLucWagner
+
   riku:
     name: Riku Avelar
     email: riku.avelar@gmail.com
@@ -53,3 +62,9 @@ people:
     email: kolytchev.d@gmail.com
     position: Python Charmer
     pic: dmitri
+
+  barbara:
+    name: Barbara Cokou Goudjo
+    email: goubarco@gmail.com
+    position: Membre
+    pic: barbara
