@@ -9,7 +9,7 @@ categories:
 tags: []
 ---
 
-_Bonnjyour everybody_
+_Bonjour everybody_
 
 Comme vous auriez pu le constater (tel qu'en lisant cet article durant votre jeu rechauffé de mahjong), le Club Cedille est arrivé en possession d'un site web! Génial!
 

@@ -1,15 +1,15 @@
-title: Qui-sommes nous?
-description: Nous sommes un Club d'Expérimentation Devops et Intégration Logiciel Libre et Embarqué
+title: Qui sommes-nous?
+description: Nous sommes un club de logiciels libres. Nous réalisons des projets de nature variées ayant trait au « devops », aux « systèmes embarqués » et au « transfert de conaissances ». Dans un même ordre d'idée, les membres du club Cedille ont la possibilité de s'impliquer au sein de la communauté étudiante en collaborant avec les autres clubs de l'ÉTS.
 
 whatis:
-  - title: DevOps
+  - title: Devops
     icon: cogs
-    description: Le DevOps, ou "Developpment Operations", est l'idée de créer des tâches contrôlables et automatisés pour faire des tâches répétitives, surtoût avec les serveurs. <br>Pensez à Google qui ont des centaines de serveurs pour rouler leurs logiciels. <br>À la place de réinstaller tout à nouveau, on créer une tâche automatisé qui fait les étapes nécessaires pour nous! <br><br>Le Devops, c'est le un qui contrôle le tout.
+    description: Le devops (développement opérationnel), c'est le déploiement automatisé de serveurs à grande échelle. Intimement lié au monde de l'infonuagique (cloud computing), le devops permet de fermer la boucle entre le développent logiciel, l'assurance qualité et les technologies des opérations. Dans le cadre du club Cedille, nous expérimentons et réalisons des projets ayant trait au déploiement de serveurs Linux et de plateformes infonuagiques.
 
-  - title: Logiciel Libre
-    icon: code
-    description: Les Logiciels Libres ont l'avantage d'être visibles.  <br>Étant ouvert, on peut être confiant de son code, on peut apprendre sont fonctionnement, et on peut l'améliorer pour tous. <br><br>Du code libre et ouvert, c'est du code fiable.  
-
-  - title: Embarqué
+  - title: Systèmes embarqués
     icon: code-fork
-    description: Toute machine a besoin de code pour le rouler.<br> On utilise alors des systèmes embarqués ouverts, tel que Arduino et Raspberry Pi, pour contrôler des machines commes des Cafetsières<br> On peut donc contrôler des circuits électriques avec un mini-ordinateur par le Web<br> <br>L'embarqué, c'est le mariage parfait entre l'électrique et le logiciel libre
+    description: Les logiciels libres sont aujourd'hui un incontournable en ce qui a trait aux systèmes embarqués. Nous réalisons des projets variés à l'aide d'outils et de plateformes de développement tels que l'Arduino, le Raspberry-Pi, et bien plus. Ce volet du club passe par la conception électronique et la programmation de bas niveau.
+
+  - title: Transfert de conaissances
+    icon: code
+    description: Le logiciel libre est synonyme de partage. Le club Cedille embrasse une mission de partage du savoir et de promotion du logiciel libre par l'organisation de conférences et de séances de formations à la communauté de l'ÉTS. Si vous souhaitez vous impliquer, organiser des événements et créer un réseau de contacts, vous êtes les bienvenus chez Cedille!
