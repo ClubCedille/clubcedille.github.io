@@ -6,7 +6,7 @@
                         {% endif %}
                             <div class="row">
                     {% endif %}
-                <div class="{% if forloop.length < 3 %}col-sm-{{12 | divided_by: forloop.length}} {% else %}col-sm-4{% endif %}">
+                <div class="{% if include.length < 3 %}col-sm-{{12 | divided_by: include.length}} {% else %}col-sm-4{% endif %}">
                     <div class="team-member">
                     {% if member.pic %}
                         <img src="{{site.baseurl}}/img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="{{member.name}}">
