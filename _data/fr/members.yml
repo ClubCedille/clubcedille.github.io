@@ -1,6 +1,9 @@
 # Team names, titles and social links
 title: Membres
-description: ""
+currentMembers: Membres Actuels
+currentDescription: ""
+exMembers: Anciens Membres
+exDescription: "Bien qu'ils ne sont plus avec nous dans le club, nous remerçions grandement nos anciens membres pour leurs contributions"
 footer: Et beaucoup plus!
 
 people:
@@ -25,6 +28,7 @@ people:
     email: michael.faille.1@ens.etsmtl.ca
     position: Initiateur, cofondateur et ancien capitaine de Cedille
     pic: michael
+    ancien: true
 
   samuel:
     name: Samuel Cardinal

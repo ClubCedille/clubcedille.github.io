@@ -78,6 +78,20 @@ header{
   filter:#{'invert()'};
 }
 
+.filter-grayscale{
+  -webkit-filter:#{'grayscale()'};
+  -ms-filter:#{'grayscale()'};
+  -opera-filter:#{'grayscale()'};
+  -moz-filter:#{'grayscale()'};
+  filter:#{'grayscale()'};
+}
+
 .intro-text .img-responsive {
   margin: 0 auto;
+}
+
+.ex-members{
+  .team-member img{
+    @extend .filter-grayscale;
+  }
 }
