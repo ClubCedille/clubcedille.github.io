@@ -46,7 +46,7 @@ All information for the About section exists within `/_data/about.yml`.
 
 ###Members
 
-Team members and info are in `_config.yml`
+Team members and info are in `_data/fr/members.yml`
 
 Images are in `/img/team/`
 
