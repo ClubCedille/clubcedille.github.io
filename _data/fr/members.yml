@@ -79,3 +79,9 @@ people:
     position: Membre
     pic: antoine
 
+  bernard:
+    name: Bernard Claing
+    email: bernard.claing.1@ens.etsmtl.ca
+    position: Membre
+    pic: bernard
+
