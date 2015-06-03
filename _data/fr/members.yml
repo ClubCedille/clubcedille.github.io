@@ -22,13 +22,7 @@ people:
     social:
       - title: google-plus
         url: https://plus.google.com/+HanenGarciaGamardo
-  
-  michael:
-    name: Michael Faille
-    email: michael.faille.1@ens.etsmtl.ca
-    position: Initiateur, cofondateur et ancien capitaine de Cedille
-    pic: michael
-    ancien: true
+
 
   samuel:
     name: Samuel Cardinal
@@ -38,6 +32,24 @@ people:
     social:
       - title: google-plus
         url: https://plus.google.com/u/0/116303569391574948806
+
+  charles:
+    name: Charles McCauley
+    email: 
+    position: Chef d'équipe volet Systèmes Embarqués
+    pic: 
+
+  alexandre:
+    name: Alexandre Viau
+    email: 
+    position: membre
+    pic: 
+
+  duc:
+    name: Van Duc Nguyen
+    email: 
+    position: membre
+    pic: 
 
   pierre-luc:
     name: Pierre-Luc Wagner
@@ -49,6 +61,12 @@ people:
         url: https://www.linkedin.com/pub/pierre-luc-wagner/4a/b9b/42a
         title: google-plus
         url: https://plus.google.com/u/0/+PierreLucWagner
+
+  jean-pierre:
+    name: Jean-Pierre
+    email: 
+    position: 
+    pic: jean-pierre
 
   riku:
     name: Riku Avelar
@@ -73,15 +91,22 @@ people:
     position: Membre
     pic: barbara
 
-  antoine:
-    name: Antoine Dallaire
-    email: antoine.dallaire@gmail.com
-    position: Membre
-    pic: antoine
-
   bernard:
     name: Bernard Claing
     email: bernard.claing.1@ens.etsmtl.ca
     position: Membre
     pic: bernard
 
+  michael:
+    name: Michael Faille
+    email: michael.faille.1@ens.etsmtl.ca
+    position: Initiateur, cofondateur et ancien capitaine de Cedille
+    pic: michael
+    ancien: true
+
+  antoine:
+    name: Antoine Dallaire
+    email: antoine.dallaire@gmail.com
+    position: Membre
+    pic: antoine
+    ancien: true
