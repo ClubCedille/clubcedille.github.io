@@ -23,20 +23,10 @@ people:
       - title: google-plus
         url: https://plus.google.com/+HanenGarciaGamardo
 
-
-  samuel:
-    name: Samuel Cardinal
-    email: samdidos@gmail.com
-    position: Chef d'équipe volet Systèmes Embarqués
-    pic: samuel
-    social:
-      - title: google-plus
-        url: https://plus.google.com/u/0/116303569391574948806
-
   charles:
     name: Charles McCauley
     email: 
-    position: Chef d'équipe volet Systèmes Embarqués
+    position: membre
     pic: 
 
   alexandre:
@@ -109,4 +99,7 @@ people:
     email: antoine.dallaire@gmail.com
     position: Membre
     pic: antoine
+    social:
+      - title: google-plus
+        url: https://plus.google.com/u/0/116303569391574948806
     ancien: true
