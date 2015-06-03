@@ -87,6 +87,15 @@ people:
     position: Membre
     pic: bernard
 
+  samuel:
+    name: Samuel Cardinal
+    email: samdidos@gmail.com
+    position: Chef d'équipe volet Systèmes Embarqués
+    pic: samuel
+    social:
+      - title: google-plus
+        url: https://plus.google.com/u/0/116303569391574948806
+
   michael:
     name: Michael Faille
     email: michael.faille.1@ens.etsmtl.ca
