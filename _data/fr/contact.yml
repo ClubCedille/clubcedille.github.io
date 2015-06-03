@@ -1,5 +1,5 @@
 title: Contact
-description: Question? Commentaire? Envoyez nous-là par courriel ou visitez nous à notre local
+description: Question? Commentaire? Envoyez-nous là par courriel ou venez nous rencontrer à notre local
 
 email:
     placeholder: Votre Courriel
@@ -13,9 +13,9 @@ message:
     
 buttons:
     contact: Demande d'information
-    adhesion: Demande d'adhesion
+    adhesion: Demande d'adhésion
     
 submit: Soumettre
 
-success: Merci! On lira votre message d'ici peu
-failure: Hm... Il semble que nous n'avons pas encore fini cette fonction. Nous allons réparé cela d'ici à peu. Si vous avez un message à nous envoyer, vous pouvez nous rejoindre par Facebook.
+success: Merci! On lira votre message sous peu.
+failure: Hm... Il semble que nous n'avons pas encore fini cette fonction. Nous allons la réparer sous peu. Si vous avez un message à nous envoyer, vous pouvez nous rejoindre par Facebook.

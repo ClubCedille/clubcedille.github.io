@@ -11,15 +11,15 @@ tags: []
 
 _Bonjour everybody_
 
-Comme vous auriez pu le constater (tel qu'en lisant cet article durant votre jeu rechauffé de mahjong), le Club Cedille est arrivé en possession d'un site web! Génial!
+Comme vous auriez pu le constater (tel qu'en lisant cet article durant votre jeu rechauffé de mahjong), le Club CEDILLE est arrivé en possession d'un site web! Génial!
 
-> _Mais Riku, comment as-t-on réussis à installer tous ces machins trucs de serveur, de PHP et de CMS sans avoir à maitriser les secrets arcanes de l'univers?_
+> _Mais Riku, comment as-t-on réussis à installer tous ces machins trucs de serveur, de PHP et de CMS sans avoir à maîtriser les secrets arcanes de l'univers?_
 
-Ah, mais c'est simple, cher George. _Je n'ai pas installer de serveur spécialisé._ Un de mes contraintes sur lequel je me suis basé pour construire le site s'agit de le rendre _agnostique_ aux serveurs, c'est à dire que peut importe notre _"machin truc arcane"_ que nous utilisons pour rouler notre _[Interblag](http://xkcd.com/181/)_ personnel, notre site web serait toujours bienvenue sans avoir à nous sacrifier un bras ou deux.
+Ah, mais c'est simple, cher Georges. _Je n'ai pas installé de serveur spécialisé._ Un de mes contraintes sur lequel je me suis basé pour construire le site s'agit de le rendre _agnostique_ aux serveurs, c'est à dire que peut importe notre _"machin truc arcane"_ que nous utilisons pour rouler notre _[Interblag](http://xkcd.com/181/)_ personnel, notre site web serait toujours bienvenue sans avoir à nous sacrifier un bras ou deux.
 
-Pour les gens intéressé, je vais rentrer dans les détails du site.
+Pour les gens intéressés, je vais entrer dans les détails du site.
 
-Le site du Club Cedille est généré par **Jekyll**, un générateur de sites statiques en Ruby. Cet outil est aussi utilisé par Github pour générer les pages de projet. Vu que nous n'avons pas de fonctionnement "dynamique" autre que certains posts de blogue occasionnel, on n'as pas besoin d'aller aussi loin que Drupal ou Wordpress. 
+Le site du Club CEDILLE est généré par **Jekyll**, un générateur de sites statiques en Ruby. Cet outil est aussi utilisé par Github pour générer les pages de projet. Vu que nous n'avons pas de fonctionnement "dynamique" autre que certains posts de blogue occasionnel, on n'as pas besoin d'aller aussi loin que Drupal ou Wordpress. 
 
 À la place, on peut simplement avoir un site avec un squelette qui resemble à
 
@@ -75,4 +75,4 @@ people:
 
 ---
 
-Long story short, le site est finalement prêt pour les yeux du public. Si jamais vous êtes intéressés à voir le code source, vous pouvez y accéder ici: [https://github.com/ClubCedille/clubcedille.github.io](https://github.com/ClubCedille/clubcedille.github.io)
+Long story short, le site est finalement prêt pour les yeux du public. Si jamais vous êtes intéressé à voir le code source, vous pouvez y accéder ici: [https://github.com/ClubCedille/clubcedille.github.io](https://github.com/ClubCedille/clubcedille.github.io)
