@@ -4,7 +4,7 @@ description: Nous sommes un club qui fait la promotion de logiciels libres. Nous
 whatis:
   - title: DevOps
     icon: cogs
-    description: Le DevOps (concaténation de "DEVelopement" et: OPerationS), c'est une approche qui vise à harmoniser les objectifs et par conséquence le travail entre le développement et la maintenance des logiciels par une collaboration étroite. Son attrait est essentiellement attribuable à celui des méthodes agiles, des cycle de déploiement continu (en demande croissante), une offre des infrastructure de haute fiabilité et virtualisées (cloud) et un croissante utilisation d'outils d'automatisation des opérations.
+    description: Le DevOps (concaténation de "DEVelopement" et OPerationS), c'est une approche qui vise à harmoniser les objectifs et par conséquence le travail entre le développement et la maintenance des logiciels par une collaboration étroite. Son attrait est essentiellement attribuable à celui des méthodes agiles, des cycle de déploiement continu (en demande croissante), une offre des infrastructure de haute fiabilité et virtualisées (cloud) et un croissante utilisation d'outils d'automatisation des opérations.
 #
 #Intimement lié au monde de l'infonuagique (cloud computing), le DevOps permet de fermer la boucle entre le développent logiciel, #l'assurance qualité et les technologies des opérations. Dans le cadre du club CEDILLE, nous expérimentons et réalisons des projets #ayant trait au déploiement de serveurs Linux et de plateformes infonuagiques.
 
