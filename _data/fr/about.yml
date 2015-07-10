@@ -1,17 +1,14 @@
-title: Qui sommes-nous?
-description: Nous sommes un club qui fait la promotion de logiciels libres. Nous réalisons des projets de nature variées ayant trait au « DevOps », aux « systèmes embarqués » et au « transfert de connaissances ». Dans un même ordre d'idée, les membres du club CEDILLE ont la possibilité de s'impliquer au sein de la communauté étudiante en collaborant avec les autres clubs de l'ÉTS.
-
+title: Qui nous sommes
+description: Nous sommes un club scientifique de l'École de Technologie Supérieure. Nous réalisons des projets d'ingénierie variés à l'aide de logiciels libres.
 whatis:
-  - title: DevOps
+  - title: Logiciels Libres
     icon: cogs
-    description: Le DevOps (concaténation de "DEVelopement" et OPerationS), c'est une approche qui vise à harmoniser les objectifs et par conséquence le travail entre le développement et la maintenance des logiciels par une collaboration étroite. Son attrait est essentiellement attribuable à celui des méthodes agiles, des cycle de déploiement continu (en demande croissante), une offre des infrastructure de haute fiabilité et virtualisées (cloud) et un croissante utilisation d'outils d'automatisation des opérations.
-#
-#Intimement lié au monde de l'infonuagique (cloud computing), le DevOps permet de fermer la boucle entre le développent logiciel, #l'assurance qualité et les technologies des opérations. Dans le cadre du club CEDILLE, nous expérimentons et réalisons des projets #ayant trait au déploiement de serveurs Linux et de plateformes infonuagiques.
-
+    description: Nous nous sommes donnés comme mission de faire la promotion des logiciels libres et de les intégrer dans tous nos projets.
+    
   - title: Systèmes embarqués
     icon: code-fork
-    description: Les logiciels libres sont aujourd'hui un incontournable en ce qui a trait aux systèmes embarqués. Nous réalisons des projets variés à l'aide d'outils et de plateformes de développement tels que l'Arduino, le Raspberry-Pi, et bien plus. Ce volet du club passe par la conception électronique et la programmation de bas niveau.
-
+    description: Plusieurs de nos projets sont réalisés à l'aide de systèmes embarqués. Par exemple, nous utilisons des technologies ouvertes (Open Source) tel que la plateforme de développement Arduino.
+    
   - title: Transfert de conaissances
     icon: code
-    description: Le logiciel libre est synonyme de partage. Le club CEDILLE a pour mission le partage du savoir et la promotion du logiciel libre par l'organisation de conférences et de séances de formations à la communauté de l'ÉTS. Si vous souhaitez vous impliquer, organiser des événements et créer un réseau de contacts, vous êtes le bienvenu chez CEDILLE!
+    description: Notre club scientifique intègre aussi une mission d'éducation. Grâce à nous, l'ÉTS est régulièrement hôte des événements du Linux Meetup. De plus, nous sommes toujours à l'affut de conférences et d'événements qui enrichissent nos conaissances autour des logiciels libres, et de technologies tel que le Cloud Computing, le DevOPS, etc.
