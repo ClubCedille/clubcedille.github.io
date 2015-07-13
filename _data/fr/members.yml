@@ -13,6 +13,9 @@ people:
     email: mosieurlaurin@gmail.com
     position: Co-Capitaine et cofondateur de Cedille
     pic: mosieurlaurin
+    social:
+      - title: linkedin
+        url: ca.linkedin.com/in/laurinpatrick
 
   hanen:
     name: Hanen Garcia
@@ -23,24 +26,15 @@ people:
       - title: google-plus
         url: https://plus.google.com/+HanenGarciaGamardo
 
-  charles:
-    name: Charles McCauley
-    email: 
-    position: membre
-    pic: 
-
-  alexandre:
-    name: Alexandre Viau
-    email: 
-    position: membre
-    pic: 
-
-  duc:
-    name: Van Duc Nguyen
-    email: 
-    position: membre
-    pic: 
-
+  samuel:
+    name: Samuel Cardinal
+    email: samdidos@gmail.com
+    position: Chef d'équipe volet Systèmes Embarqués
+    pic: samuel
+    social:
+      - title: google-plus
+        url: https://plus.google.com/u/0/116303569391574948806
+  
   pierre-luc:
     name: Pierre-Luc Wagner
     email: pierreluc.wagner@gmail.com
@@ -51,12 +45,6 @@ people:
         url: https://www.linkedin.com/pub/pierre-luc-wagner/4a/b9b/42a
         title: google-plus
         url: https://plus.google.com/u/0/+PierreLucWagner
-
-  jean-pierre:
-    name: Jean-Pierre
-    email: 
-    position: 
-    pic: jean-pierre
 
   riku:
     name: Riku Avelar
@@ -87,14 +75,29 @@ people:
     position: Membre
     pic: bernard
 
-  samuel:
-    name: Samuel Cardinal
-    email: samdidos@gmail.com
-    position: Chef d'équipe volet Systèmes Embarqués
-    pic: samuel
-    social:
-      - title: google-plus
-        url: https://plus.google.com/u/0/116303569391574948806
+  alexandre:
+    name: Alexandre Viau
+    email: 
+    position: membre
+    pic: alexandre
+
+  charles:
+    name: Charles McCauley
+    email: 
+    position: membre
+    pic: 
+
+  duc:
+    name: Van Duc Nguyen
+    email: 
+    position: membre
+    pic: 
+
+  jean-pierre:
+    name: Jean-Pierre
+    email: 
+    position: 
+    pic:
 
   michael:
     name: Michael Faille
