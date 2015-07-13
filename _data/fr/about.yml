@@ -3,12 +3,12 @@ description: Nous sommes un club scientifique de l'École de Technologie Supéri
 whatis:
   - title: Logiciels Libres
     icon: cogs
-    description: Nous nous sommes donnés comme mission de faire la promotion des logiciels libres et de les intégrer dans tous nos projets.
+    description: Notre mission est de démontrer les possibilités qu'offrent les logiciels libres par la réalisation de projets d'ingénierie variés. L'industrie adopte massivement la philosophie du libre (Open Source software & hardware), considérant qu'elle est un moteur favorisant l'accélération de l'innovation.
     
   - title: Systèmes embarqués
     icon: code-fork
-    description: Plusieurs de nos projets sont réalisés à l'aide de systèmes embarqués. Par exemple, nous utilisons des technologies ouvertes (Open Source) tel que la plateforme de développement Arduino.
+    description: Plusieurs de nos projets sont réalisés à l'aide de systèmes embarqués (circuits électroniques et microcontrôleurs). Nous avons utilisé, à titre d'exemple, des technologies ouvertes tels que les plateforme de développement Arduino et Raspberry Pi, pour divers projets.
     
   - title: Transfert de conaissances
     icon: code
-    description: Notre club scientifique intègre aussi une mission d'éducation. Grâce à nous, l'ÉTS est régulièrement hôte des événements du Linux Meetup. De plus, nous sommes toujours à l'affut de conférences et d'événements qui enrichissent nos conaissances autour des logiciels libres, et de technologies tel que le Cloud Computing, le DevOPS, etc.
+    description: Notre club scientifique intègre aussi une mission éducative. Nous sommes toujours à l'affut de conférences et d'événements qui enrichissent nos connaissances aux alentours des logiciels libres et de technologies telles que le Cloud Computing, le DevOPS, la programmation, etc.
