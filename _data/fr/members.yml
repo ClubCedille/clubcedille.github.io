@@ -3,7 +3,7 @@ title: Membres
 currentMembers: Membres Actuels
 currentDescription: ""
 exMembers: Anciens Membres
-exDescription: "Bien qu'ils ne sont plus avec nous dans le club, nous remerçions grandement nos anciens membres pour leurs contributions"
+exDescription: "Bien qu'ils ne soient plus membres du club Cedille, nous remercions chaleureusement nos anciens membres pour leurs implication!"
 footer: Et beaucoup plus!
 
 people:
@@ -75,17 +75,17 @@ people:
     position: Membre
     pic: bernard
 
+  charles:
+    name: Charles McCauley
+    email: 
+    position: membre
+    pic: charles 
+
   alexandre:
     name: Alexandre Viau
     email: 
     position: membre
     pic: alexandre
-
-  charles:
-    name: Charles McCauley
-    email: 
-    position: membre
-    pic: 
 
   duc:
     name: Van Duc Nguyen

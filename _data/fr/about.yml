@@ -9,6 +9,6 @@ whatis:
     icon: code-fork
     description: Plusieurs de nos projets sont réalisés à l'aide de systèmes embarqués (circuits électroniques et microcontrôleurs). Nous avons utilisé, à titre d'exemple, des technologies ouvertes tels que les plateforme de développement Arduino et Raspberry Pi, pour divers projets.
     
-  - title: Transfert de conaissances
+  - title: Transfert de connaissances
     icon: code
     description: Notre club scientifique intègre aussi une mission éducative. Nous sommes toujours à l'affut de conférences et d'événements qui enrichissent nos connaissances aux alentours des logiciels libres et de technologies telles que le Cloud Computing, le DevOPS, la programmation, etc.
