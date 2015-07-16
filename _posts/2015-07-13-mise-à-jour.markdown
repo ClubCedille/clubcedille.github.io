@@ -11,7 +11,7 @@ tags: []
 
 _Hola!_
 
-Enfin, une mise à jour sur le blogue de Cedille! Malgré les apparences, Cedille a été plutôt occupé dans la dernière année. Nous avons entre-autres terminé le projet nETSpresso, et nous en sommes à finaliser quelques détails (looking) de la plateforme Meta-Club.
+Enfin, une mise à jour sur le blogue de Cedille! Malgré les apparences, Cedille a été plutôt occupé dans la dernière année. Nous avons entre autres terminé le projet nETSpresso, et nous en sommes à finaliser quelques détails (looking) de la plateforme Meta-Club.
 
 Nous avons de plus débuté la phase conceptuelle d'un projet nommé Çynergie, qui consiste à créer un API qui publie des données et statistiques concernant l'impact énergétique du campus de l'ÉTS. Ce projet va inclure un élément dymamique et public qui sera installé à un endroit déterminé à l'intérieur des murs de l'université.
 
