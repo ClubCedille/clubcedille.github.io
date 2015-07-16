@@ -8,8 +8,8 @@
               </div>
           </div>
           <div class="col-md-5 news-posts">
-            {% for post in site.categories.[page.lang] %}
                 <h3 class="text-muted text-center">{{ site.data.[page.lang].news.blog }}</h3>
+            {% for post in site.categories.[page.lang] %}
                 <article {% if forloop.first %}class="first"{% endif %}>
                   {% if post.link %}
                     <h2 class="link-post"><a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i> <small>{{ post.date | date: '%Y' }}</small></h2>
