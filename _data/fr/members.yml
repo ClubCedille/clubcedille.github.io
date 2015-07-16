@@ -34,7 +34,7 @@ people:
     social:
       - title: linkedin
         url: https://ca.linkedin.com/in/samuelcardinal
-        title: google-plus
+      - title: google-plus
         url: https://plus.google.com/u/0/116303569391574948806
   
   pierre-luc:
@@ -45,7 +45,7 @@ people:
     social:
       - title: linkedin
         url: https://www.linkedin.com/pub/pierre-luc-wagner/4a/b9b/42a
-        title: google-plus
+      - title: google-plus
         url: https://plus.google.com/u/0/+PierreLucWagner
 
   riku:
@@ -94,12 +94,6 @@ people:
     email: 
     position: membre
     pic: duc 
-
-#  jean-pierre:
-#    name: Jean-Pierre
-#    email: 
-#    position: 
-#    pic:
 
   michael:
     name: Michael Faille
