@@ -32,7 +32,9 @@ people:
     position: Chef d'équipe volet Systèmes Embarqués
     pic: samuel
     social:
-      - title: google-plus
+      - title: linkedin
+        url: https://ca.linkedin.com/in/samuelcardinal
+        title: google-plus
         url: https://plus.google.com/u/0/116303569391574948806
   
   pierre-luc:
