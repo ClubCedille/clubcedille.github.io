@@ -82,6 +82,9 @@ people:
     email: 
     position: membre
     pic: charles 
+    social:
+      - title: google-plus
+        url: https://plus.google.com/104603863606027596744
 
   alexandre:
     name: Alexandre Viau
