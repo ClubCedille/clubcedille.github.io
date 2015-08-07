@@ -80,7 +80,7 @@ people:
   charles:
     name: Charles McCauley
     email: 
-    position: membre
+    position: Membre
     pic: charles 
     social:
       - title: google-plus
@@ -89,13 +89,13 @@ people:
   alexandre:
     name: Alexandre Viau
     email: 
-    position: Debian Developer
+    position: Membre
     pic: alexandre
 
   duc:
     name: Van Duc Nguyen
     email: 
-    position: membre
+    position: Membre
     pic: duc 
 
   michael:
