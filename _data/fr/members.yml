@@ -98,6 +98,12 @@ people:
     position: Membre
     pic: duc 
 
+  gorley:
+    name: Philippe Gorley
+    email: 
+    position: Mascotte!
+    pic: gorley
+
   michael:
     name: Michael Faille
     email: michael.faille.1@ens.etsmtl.ca
