@@ -7,29 +7,10 @@ exDescription: "Bien qu'ils ne soient plus membres du club Cedille, nous remerci
 footer: Et beaucoup plus!
 
 people:
-  mosieurlaurin:
-    name: Patrick Laurin
-    email: patrick.laurin.3@ens.etsmtl.ca
-    email: mosieurlaurin@gmail.com
-    position: Co-Capitaine et cofondateur de Cedille
-    pic: mosieurlaurin
-    social:
-      - title: linkedin
-        url: https://ca.linkedin.com/in/laurinpatrick
-
-  hanen:
-    name: Hanen Garcia
-    email: hanen.garcia-gamardo.1@etsmtl.net
-    position: Co-Capitaine
-    pic: hanen
-    social:
-      - title: google-plus
-        url: https://plus.google.com/+HanenGarciaGamardo
-
   samuel:
     name: Samuel Cardinal
     email: samdidos@gmail.com
-    position: Chef d'équipe volet Systèmes Embarqués
+    position: Capitaine
     pic: samuel
     social:
       - title: linkedin
@@ -40,13 +21,32 @@ people:
   pierre-luc:
     name: Pierre-Luc Wagner
     email: pierreluc.wagner@gmail.com
-    position: Chef d'équipe volet Formation/Conférences
+    position: Co-Capitaine
     pic: pierre-luc
     social:
       - title: linkedin
         url: https://www.linkedin.com/pub/pierre-luc-wagner/4a/b9b/42a
       - title: google-plus
         url: https://plus.google.com/u/0/+PierreLucWagner
+
+  mosieurlaurin:
+    name: Patrick Laurin
+    email: patrick.laurin.3@ens.etsmtl.ca
+    email: mosieurlaurin@gmail.com
+    position: Membre (ancien capitaine, finissant)
+    pic: mosieurlaurin
+    social:
+      - title: linkedin
+        url: https://ca.linkedin.com/in/laurinpatrick
+
+  hanen:
+    name: Hanen Garcia
+    email: hanen.garcia-gamardo.1@etsmtl.net
+    position: Membre (ancien co-capitaine, finissant)
+    pic: hanen
+    social:
+      - title: google-plus
+        url: https://plus.google.com/+HanenGarciaGamardo
 
   riku:
     name: Riku Avelar
