@@ -3,39 +3,32 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{ site.data.[page.lang].members.title }}</h2>
-                    <h3 class="section-subheading text-muted">{{ site.data.[page.lang].members.description }}</h3>
+                    <h2 class="section-heading">{{ site.data.[page.lang].members.currentMembers }}</h2>
+                    <h3 class="section-subheading text-muted">{{ site.data.[page.lang].members.currentDescription }}</h3>
                 </div>
             </div>
             <div class="row">
                 {% for hash in site.data.[page.lang].members.people %}
                 {% assign member = hash[1] %}
-                    {% capture startRow %}{% cycle 'memberModule': 'true', 'false', 'false' %}{% endcapture %}
-                    {% if startRow == 'true' %}
-                        {% if forloop.index != 1 %}
-                            </div>
-                        {% endif %}
-                            <div class="row">
-                    {% endif %}
-                <div class="{% if forloop.length < 3 %}col-sm-{{12 | divided_by: forloop.length}} {% else %}col-sm-4{% endif %}">
-                    <div class="team-member">
-                    {% if member.pic %}
-                        <img src="{{site.baseurl}}/img/team/{{ member.pic }}.jpg" class="img-responsive img-circle" alt="{{member.name}}">
-                    {% else %}
-                        <img src="{{member.email | to_gravatar}}?s=225&d=mm" alt="{{member.name}}">
-                    {% endif %}
-                        <h4>{{ member.name }}</h4>
-                        <p class="text-muted">{{ member.position }}</p>
-                        <ul class="list-inline social-buttons">
-                            {% for network in member.social %}
-                                {% if network.url %}
-                            <li><a target="_blank" href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                                {% endif %}
-                            {% endfor %}
-
-                        </ul>
-                    </div>
+                {% unless member.ancien %}
+                    {% include member_profile.html member=member length=currentCount %}
+                {% endunless %}
+                {% endfor %}
                 </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{{ site.data.[page.lang].members.exMembers }}</h2>
+                    <h3 class="section-subheading text-muted">{{ site.data.[page.lang].members.exDescription }}</h3>
+                </div>
+            </div>
+            <div class="row"><hr></div>
+            <div class="row ex-members">
+                {% for hash in site.data.[page.lang].members.people %}
+                {% assign member = hash[1] %}
+                {% if member.ancien %}
+                    {% include member_profile.html member=member length=exCount %}
+                {% endif %}
                 {% endfor %}
                 </div>
             </div>

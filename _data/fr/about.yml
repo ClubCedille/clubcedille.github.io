@@ -1,15 +1,14 @@
-title: Qui-sommes nous?
-description: Nous sommes un Club d'Expérimentation Devops et Intégration Logiciel Libre et Embarqué
-
+title: Qui nous sommes
+description: Nous sommes un club scientifique de l'École de Technologie Supérieure. Nous réalisons des projets d'ingénierie variés à l'aide de logiciels libres.
 whatis:
-  - title: DevOps
+  - title: Logiciels Libres
     icon: cogs
-    description: Le DevOps, ou "Developpment Operations", est l'idée de créer des tâches contrôlables et automatisés pour faire des tâches répétitives, surtoût avec les serveurs. <br>Pensez à Google qui ont des centaines de serveurs pour rouler leurs logiciels. <br>À la place de réinstaller tout à nouveau, on créer une tâche automatisé qui fait les étapes nécessaires pour nous! <br><br>Le Devops, c'est le un qui contrôle le tout.
-
-  - title: Logiciel Libre
-    icon: code
-    description: Les Logiciels Libres ont l'avantage d'être visibles.  <br>Étant ouvert, on peut être confiant de son code, on peut apprendre sont fonctionnement, et on peut l'améliorer pour tous. <br><br>Du code libre et ouvert, c'est du code fiable.  
-
-  - title: Embarqué
+    description: Notre mission est de démontrer les possibilités qu'offrent les logiciels libres par la réalisation de projets d'ingénierie variés. L'industrie adopte massivement la philosophie du libre (Open Source software & hardware), considérant qu'elle est un moteur favorisant l'accélération de l'innovation.
+    
+  - title: Systèmes embarqués
     icon: code-fork
-    description: Toute machine a besoin de code pour le rouler.<br> On utilise alors des systèmes embarqués ouverts, tel que Arduino et Raspberry Pi, pour contrôler des machines commes des Cafetsières<br> On peut donc contrôler des circuits électriques avec un mini-ordinateur par le Web<br> <br>L'embarqué, c'est le mariage parfait entre l'électrique et le logiciel libre
+    description: Plusieurs de nos projets sont réalisés à l'aide de systèmes embarqués (circuits électroniques et microcontrôleurs). Nous avons utilisé, à titre d'exemple, des technologies ouvertes tels que les plateforme de développement Arduino et Raspberry Pi, pour divers projets.
+    
+  - title: Transfert de connaissances
+    icon: code
+    description: Notre club scientifique intègre aussi une mission éducative. Nous sommes toujours à l'affut de conférences et d'événements qui enrichissent nos connaissances aux alentours des logiciels libres et de technologies telles que le Cloud Computing, le DevOPS, la programmation, etc.
