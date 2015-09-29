@@ -2,4 +2,4 @@ source 'https://rubygems.org'
 
 gem "jekyll"
 gem "html-proofer"
-gem  "celluloid", '>=0.16.1'
+gem  "celluloid-io", '>=0.16.1'
