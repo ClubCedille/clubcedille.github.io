@@ -98,15 +98,12 @@ people:
     position: Membre
     pic: duc 
 
-<<<<<<< HEAD
-=======
   antony:
     name: Anthony Le
     email: antony.le.truong.tho@gmail.ca
     position: Membre
     pic: antony
 
->>>>>>> 2fae2a75fa5cbbd0971da3fc32a1cdb1f9527213
   gorley:
     name: Philippe Gorley
     email: 
