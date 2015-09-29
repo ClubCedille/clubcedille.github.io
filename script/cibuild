@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -e # halt script on error
 
-bundle exec jekyll build
+bundle install
+bundle exec jekyll build --watch
 bundle exec htmlproof ./_site
-bundle exec rsync -vv -rPL ./_site/* /var/www/html/
+#bundle exec rsync -vv -rPL ./_site/* /var/www/html/
