@@ -3,4 +3,4 @@ set -e # halt script on error
 
 bundle exec jekyll build
 bundle exec htmlproof ./_site
-bundle exec rsync -vv -rPL -e "ssh -i id_rsa" ./_site/* cedille@localhost:/var/www/html/
+bundle exec rsync -vv -rPL ./_site/* /var/www/html/
