@@ -4,6 +4,7 @@ rvm:
 script: 
     - bundle exec jekyll build
     - bundle exec htmlproof ./_site --disable-external
+    - bundle exec rsync -rtvu ./_site/* /var/www/html/
 
 # branch whitelist
 branches:
