@@ -9,7 +9,7 @@ categories:
 tags: []
 ---
 
-_Hola!!_!
+_Hola!!!
 
 Enfin, une mise à jour sur le blogue de Cedille! Malgré les apparences, Cedille a été plutôt occupé dans la dernière année. Nous avons entre autres terminé le projet nETSpresso, et nous en sommes à finaliser quelques détails (looking) de la plateforme Meta-Club.
 
