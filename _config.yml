@@ -55,3 +55,4 @@ exclude:
   - README.md
   - Gemfile
   - .travis.yml
+  - vendor
