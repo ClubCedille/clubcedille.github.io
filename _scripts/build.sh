@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt install -y openssh-server xdotool
+apt install -y openssh-server sshpass
 bundle install
 bundle exec jekyll build
 bundle exec htmlproof ./_site
