@@ -6,4 +6,4 @@ bundle install
 bundle exec jekyll build
 bundle exec htmlproof ./_site
 jekyll build
-rsync ./_site/* cedille@cedille.etsmtl.ca:/home/cedille/site-web/_site/
+rsync -o StrictHostKeyChecking=no ./_site/* cedille@cedille.etsmtl.ca:/home/cedille/site-web/_site/
