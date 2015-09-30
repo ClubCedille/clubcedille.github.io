@@ -1,8 +1,0 @@
-#!/usr/bin/env bash
-set -e # halt script on error
-
-bundle install
-bundle exec jekyll build 
-bundle exec htmlproof ./_site
-jekyll build
-#bundle exec rsync -vv -rPL ./_site/* /var/www/html/
