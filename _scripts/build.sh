@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 #apt install -y openssh-server sshpass 
 bundle install
