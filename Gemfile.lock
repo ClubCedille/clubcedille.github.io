@@ -116,6 +116,7 @@ GEM
     pygments.rb (0.6.3)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.2.0)
+    rake (0.8.7)
     rb-fsevent (0.9.6)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -140,4 +141,5 @@ DEPENDENCIES
   celluloid-io (>= 0.16.1)
   html-proofer
   jekyll
+  rake (= 0.8.7)
   rsync (~> 1.0.9)
