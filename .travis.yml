@@ -1,7 +1,5 @@
 language: bash
 
-install:
-  - openssh-server
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
 script: 
