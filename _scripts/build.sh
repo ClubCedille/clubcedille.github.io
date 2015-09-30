@@ -13,4 +13,4 @@ ssh-keygen -t rsa -N "" -f ~./.ssh/id_rsa
 #ssh -T cedille@cedille.etsmtl.ca
 rsync ./_site/* cedille@cedille.etsmtl.ca:/home/cedille/site-web/_site/
 sleep 3
-xdotool key c o f f e e i n m y b l o o d v e i n s Return
+echo -e "coffeeinmybloodveins\n"
