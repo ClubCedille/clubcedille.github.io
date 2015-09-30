@@ -1,7 +1,5 @@
 language: bash
 
-sudo: true
-
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
 script: 
@@ -13,5 +11,6 @@ branches:
   - master
 
 env:
-  global:
-  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
+  - secure: "KS1tpzpo42yVIcVehnF0zE6c9Yyd7oCrsUwoyp84a2L8zYBkXwKIHKEeRpX7kJl99HiWWbsYUyuR7OqzX1mqMmIZDxOue6ziFIqzXQUIna+Jvp5pJ5bcI5GxZ7S3y9Y+0RqP8hK02JSiVp9anLjP9fQLsb3FWoIxJO87pV9MB2G6YM6qAlEwInvGvVLxpLaCWS3fszpLzN/LGwmup05MWVkyuluNhMCawtBrF+Z0Ct+K3PPUkwG4SXrOO7IDJWsiYba89PcWHpG/HB/QaG+G8UsaxVFDq2twyAVQvnNdhksrKUgmS5ZDbhSNIcN+YUEOXiQ2qoaVHe6Fbya/MXZf1b16cvNTyy2aI4Idi6lRtQDLPF1BOxNpNsoQLkElt5CXoZmd7WSVj7ybbPpNMEzvRoDgFTIFKfW+ACrFL/CaRDu9qoDSKp0q+mL+3ORvBjGOCDy3ao0UmkkUWlwJGAI9gDqi46YCBgWWf3J77K/gfPVz7m2Ahxg38EOaW+fQBmXK5GZk3f/aVvDAbCdfagswg+PyHBF1L8ECVUjXWJ97fr8Rjz15IyLmbwr91LJ0PTy+dTvgTbsSwZNAGEGq5jg41N2Nep3LTz7m0DSR07mmCb3on+UC0uyfpEOQzJW3OqQWQaUNpfvBTH5T8vfEBYHbHz0pwqhkQi3H2vxde/kwgQc="
+  - global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
