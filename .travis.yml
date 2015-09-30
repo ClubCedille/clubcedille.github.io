@@ -1,4 +1,6 @@
-language: expect
+language: bash
+
+sudo: true
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
