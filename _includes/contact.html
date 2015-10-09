@@ -1,20 +1,62 @@
 <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{site.data.[page.lang].contact.title}}</h2>
-                    <h3 class="section-subheading text-muted">{{site.data.[page.lang].contact.description}}</h3>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2 class="section-heading">{{site.data.[page.lang].contact.title}}</h2>
+					<h3 class="section-subheading text-muted">{{site.data.[page.lang].contact.description}}</h3>
                     <h3 class="section-subheading">{{site.data.[page.lang].contact.contact_informations}}</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="btn-group btn-group-justified form-selector">
-                    <a class="btn btn-primary active" data-target="#contact-form" href="#contact" class="page-scroll">{{site.data.[page.lang].contact.buttons.contact}}</a>
-                    <a class="btn btn-primary" data-target="#adhesion-form" href="#contact" class="page-scroll">{{site.data.[page.lang].contact.buttons.adhesion}}</a>
-                </div>
-                <br><br>
-                <iframe id="contact-form" class="google-form col-xs-12" src="https://docs.google.com/forms/d/1a0we6HV6gtl8dCOcWrW2vj98jRo-nOEhEM7ed1MX1cA/viewform?usp=send_form" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-                <iframe id="adhesion-form" class="google-form col-xs-12 hidden" src="https://docs.google.com/forms/d/1kGssFmamqVic62qRSVy-btNfWdEHjQgRZ7uvz6eKUlY/viewform?embedded=true" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-            </div>
-        </div>
-    </section>
+				</div>
+			</div>
+			<div class="row">
+				<div class="btn-group btn-group-justified form-selector">
+					<a class="btn btn-primary active" data-target="#contact-form" href="#contact" class="page-scroll">
+						{{site.data.[page.lang].contact.buttons.contact}}
+					</a>
+					<a class="btn btn-primary" data-target="#adhesion-form" href="#contact" class="page-scroll">
+						{{site.data.[page.lang].contact.buttons.adhesion}}
+					</a>
+				</div>
+				<form id="contact-form" class="google-form col-xs-12">
+						<label>Nom</label>
+						<input type="text"/>
+						<label>Courriel</label>
+						<input type="text"/>
+						<label>Message</label>
+						<textarea></textarea>
+				</form>
+				<form id="adhesion-form" class="col-xs-12 hidden">
+					<p>
+						<label>Prénom *</label>
+						<input type='text'/>
+						<label>Nom *</label>
+						<input type='text'/>
+						<label>Courriel *</label>
+						<input type='text'/>
+					</p>
+
+					<h4>Formation *</h4>
+					<p>
+						<label><input type="radio" name="formation"/> Baccalauréat</label>
+						<label><input type="radio" name="formation"/> Maîtrise</label>
+						<label><input type="radio" name="formation"/> Doctorat</label>
+					</p>
+
+					<h4>Programme d'étude *</h4>
+					<p>
+						<label><input type="radio" name="programme"/> Génie des technologies de l'inprogramme</label>
+						<label><input type="radio" name="programme"/> Génie électrique</label>
+						<label><input type="radio" name="programme"/> Génie mécanique</label>
+						<label><input type="radio" name="programme"/> Génie logiciel</label>
+						<label><input type="radio" name="programme"/> Génie des opérations et de la logistique</label>
+						<label><input type="radio" name="programme"/> Génie de la construction</label>
+						<label><input type="radio" name="programme"/> Génie de la production automatisée</label>
+					</p>
+					<h4>Autre : </h4>
+					<p>
+						Consentement pour recevoir des courriels du club *
+						<br/><input type="checkbox" name="conscentement"/> Je suis d'accord
+					</p>
+				</form>
+			</div>
+		</div>
+	</section>

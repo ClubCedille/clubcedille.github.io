@@ -62,7 +62,30 @@ header{
 
 #contact{
   background-attachment: fixed;
+  text-align: center;
+  
+  & form{
+    text-align: left;
+    overflow: hidden;
+    background: white;
+    display: inline-block;
+
+    & p{
+      overflow: hidden;
+      clear: both;
+      
+      & label{
+      }
+    }
+
+    & label{
+      font-weight: normal;
+      display: block;
+      clear: both;
+    }
+  }
 }
+
 
 @media (min-width: 768px){
   header .container .intro-text{
