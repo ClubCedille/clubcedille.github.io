@@ -65,10 +65,19 @@ header{
   text-align: center;
   
   & form{
+    /*background: white;*/
     text-align: left;
     overflow: hidden;
-    background: white;
     display: inline-block;
+
+    padding: 0 10%;
+
+    & div {
+      background: #f9f9f9;
+      padding: 32px;
+      border: 1px solid #fff;
+      border-width: 0 1px;
+    }
 
     & p{
       overflow: hidden;
@@ -83,6 +92,10 @@ header{
       display: block;
       clear: both;
     }
+
+    & button{
+      
+    }
   }
 }
 
@@ -90,6 +103,9 @@ header{
 @media (min-width: 768px){
   header .container .intro-text{
     padding-top: 100px;
+  }
+  #contact form{
+    padding: 0 30%;
   }
 }
 

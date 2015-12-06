@@ -16,46 +16,65 @@
 						{{site.data.[page.lang].contact.buttons.adhesion}}
 					</a>
 				</div>
-				<form id="contact-form" class="google-form col-xs-12">
+
+				<form id="contact-form" name="contact-form" class="google-form col-xs-12 bg-light-gray" action="http://cedille.etsmtl.ca:8080/" method="post">
+					<div>
+						<input type="hidden" name="source" value="contact-form"/>
+						<h4>Demande d'information</h4>
 						<label>Nom</label>
-						<input type="text"/>
+						<input name="nom" type="text" required/>
 						<label>Courriel</label>
-						<input type="text"/>
+						<input name="courriel" type="text" required/>
 						<label>Message</label>
-						<textarea></textarea>
+						<textarea name="message" required></textarea>
+						<p><button class="btn btn-primary">Soumettre</button></p>
+					</div>
 				</form>
-				<form id="adhesion-form" class="col-xs-12 hidden">
-					<p>
-						<label>Prénom *</label>
-						<input type='text'/>
-						<label>Nom *</label>
-						<input type='text'/>
-						<label>Courriel *</label>
-						<input type='text'/>
-					</p>
+				<form id="adhesion-form" name="adhesion-form" class="col-xs-12 hidden bg-light-gray" action="http://cedille.etsmtl.ca:8080/" method="post">
+					<div>
+						<input type="hidden" name="source" value="adhesion-form"/>
+						<h4>Demande d'adhésion</h4>
+						<p>
+							<label>Prénom *</label>
+							<input name="prenom" type='text' required/>
+							<label>Nom *</label>
+							<input name="nom" type='text' required/>
+							<label>Courriel *</label>
+							<input name="courriel" type='text' required/>
+						</p>
 
-					<h4>Formation *</h4>
-					<p>
-						<label><input type="radio" name="formation"/> Baccalauréat</label>
-						<label><input type="radio" name="formation"/> Maîtrise</label>
-						<label><input type="radio" name="formation"/> Doctorat</label>
-					</p>
+						<h5>Formation *</h5>
+						<p>
+							<label><input type="radio" name="formation" value="Baccalauréat"/> Baccalauréat</label>
+							<label><input type="radio" name="formation" value="Maîtrise"/> Maîtrise</label>
+							<label><input type="radio" name="formation" value="Doctorat" required/> Doctorat</label>
+						</p>
 
-					<h4>Programme d'étude *</h4>
-					<p>
-						<label><input type="radio" name="programme"/> Génie des technologies de l'inprogramme</label>
-						<label><input type="radio" name="programme"/> Génie électrique</label>
-						<label><input type="radio" name="programme"/> Génie mécanique</label>
-						<label><input type="radio" name="programme"/> Génie logiciel</label>
-						<label><input type="radio" name="programme"/> Génie des opérations et de la logistique</label>
-						<label><input type="radio" name="programme"/> Génie de la construction</label>
-						<label><input type="radio" name="programme"/> Génie de la production automatisée</label>
-					</p>
-					<h4>Autre : </h4>
-					<p>
-						Consentement pour recevoir des courriels du club *
-						<br/><input type="checkbox" name="conscentement"/> Je suis d'accord
-					</p>
+						<h5>Programme d'étude *</h5>
+						<p>
+							<label><input type="radio" name="programme" value="Génie des technologies de l'information"/>
+							Génie des technologies de l'information</label>
+							<label><input type="radio" name="programme" value="Génie électrique"/>
+							Génie électrique</label>
+							<label><input type="radio" name="programme" value="Génie mécanique"/>
+							Génie mécanique</label>
+							<label><input type="radio" name="programme" value="Génie logiciel"/>
+							Génie logiciel</label>
+							<label><input type="radio" name="programme" value="Génie des opérations et de la logistique"/>
+							Génie des opérations et de la logistique</label>
+							<label><input type="radio" name="programme" value="Génie de la construction"/>
+							Génie de la construction</label>
+							<label><input type="radio" name="programme" value="Génie de la production automatisée" required/>
+							Génie de la production automatisée</label>
+						</p>
+						<h5>Autre : </h5>
+						<p>
+							Consentement pour recevoir des courriels du club *
+							<br/><input type="checkbox" name="conscentement" id="conscentement"/> Je suis d'accord
+						</p>
+						<p><button class="btn btn-primary">Soumettre</button></p>
+						<!-- API Key: AIzaSyAy-HwVt5J_r50O4xKXFXHaUj1Bwldtz48 -->
+					</div>
 				</form>
 			</div>
 		</div>
