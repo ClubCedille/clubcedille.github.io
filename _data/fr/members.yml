@@ -105,6 +105,23 @@ people:
     position: Membre
     pic: antony
 
+  batman:
+    name: Yamlal Gotame
+    email: yamugotame@gmail.com
+    position: Membre
+    pic: batman
+    social:
+      - title: linkedin
+        url: https://ca.linkedin.com/in/ygotame
+      - title: google-plus
+        url: https://plus.google.com/+YamlalGotame/posts
+
+villers:
+    name: Antoine de Villers
+    email: antoinedevillers0307@gmail.com
+    position: Membre
+    pic: villers
+
   gorley:
     name: Philippe Gorley
     email: 
