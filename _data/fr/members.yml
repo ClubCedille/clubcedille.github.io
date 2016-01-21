@@ -29,27 +29,7 @@ people:
       - title: google-plus
         url: https://plus.google.com/u/0/+PierreLucWagner
 
-  mosieurlaurin:
-    name: Patrick Laurin
-    email: patrick.laurin.3@ens.etsmtl.ca
-    email: mosieurlaurin@gmail.com
-    position: Membre (ancien capitaine, finissant)
-    pic: mosieurlaurin
-    social:
-      - title: linkedin
-        url: https://ca.linkedin.com/in/laurinpatrick
-    ancien: true
-
-  hanen:
-    name: Hanen Garcia
-    email: hanen.garcia-gamardo.1@etsmtl.net
-    position: Membre (ancien co-capitaine, finissant)
-    pic: hanen
-    social:
-      - title: google-plus
-        url: https://plus.google.com/+HanenGarciaGamardo
-
-  riku:
+   riku:
     name: Riku Avelar
     email: riku.avelar@gmail.com
     position: Pilgrim Javascript
@@ -114,7 +94,13 @@ people:
       - title: linkedin
         url: https://ca.linkedin.com/in/ygotame
       - title: google-plus
-        url: https://plus.google.com/+YamlalGotame/posts
+        url: https://plus.google.com/+YamlalGotame
+
+ nadeau:
+    name: Nicolas De Oliveira Nadeau 
+    email: niconadeau0@gmail.com
+    position: Membre
+    pic: nadeau
 
   villers:
     name: Antoine de Villers
@@ -127,6 +113,27 @@ people:
     email: 
     position: Mascotte
     pic: gorley
+
+  mosieurlaurin:
+    name: Patrick Laurin
+    email: patrick.laurin.3@ens.etsmtl.ca
+    email: mosieurlaurin@gmail.com
+    position: Membre (ancien capitaine, finissant)
+    pic: mosieurlaurin
+    social:
+      - title: linkedin
+        url: https://ca.linkedin.com/in/laurinpatrick
+    ancien: true
+
+  hanen:
+    name: Hanen Garcia
+    email: hanen.garcia-gamardo.1@etsmtl.net
+    position: Membre (ancien co-capitaine, finissant)
+    pic: hanen
+    social:
+      - title: google-plus
+        url: https://plus.google.com/+HanenGarciaGamardo
+    ancien: true
 
   michael:
     name: Michael Faille
