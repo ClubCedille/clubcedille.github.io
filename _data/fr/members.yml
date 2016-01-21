@@ -29,7 +29,7 @@ people:
       - title: google-plus
         url: https://plus.google.com/u/0/+PierreLucWagner
 
-   riku:
+  riku:
     name: Riku Avelar
     email: riku.avelar@gmail.com
     position: Pilgrim Javascript
@@ -96,7 +96,7 @@ people:
       - title: google-plus
         url: https://plus.google.com/+YamlalGotame
 
- nadeau:
+  nadeau:
     name: Nicolas De Oliveira Nadeau 
     email: niconadeau0@gmail.com
     position: Membre
@@ -118,7 +118,7 @@ people:
     name: Patrick Laurin
     email: patrick.laurin.3@ens.etsmtl.ca
     email: mosieurlaurin@gmail.com
-    position: Membre (ancien capitaine, finissant)
+    position: Ancien capitaine, Cofondateur et finissant
     pic: mosieurlaurin
     social:
       - title: linkedin
