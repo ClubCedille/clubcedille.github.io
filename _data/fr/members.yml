@@ -1,4 +1,4 @@
-# Team names, titles and social links
+ Team names, titles and social links
 title: Membres
 currentMembers: Membres Actuels
 currentDescription: ""
@@ -29,6 +29,27 @@ people:
       - title: google-plus
         url: https://plus.google.com/u/0/+PierreLucWagner
 
+  mosieurlaurin:
+    name: Patrick Laurin
+    email: patrick.laurin.3@ens.etsmtl.ca
+    email: mosieurlaurin@gmail.com
+    position: Ancien capitaine, Cofondateur et Finissant
+    pic: mosieurlaurin
+    social:
+      - title: linkedin
+        url: https://ca.linkedin.com/in/laurinpatrick
+    ancien: true
+
+  hanen:
+    name: Hanen Garcia
+    email: hanen.garcia-gamardo.1@etsmtl.net
+    position: Ancien co-capitaine et Finissant
+    pic: hanen
+    social:
+      - title: google-plus
+        url: https://plus.google.com/+HanenGarciaGamardo
+    ancien: true
+
   riku:
     name: Riku Avelar
     email: riku.avelar@gmail.com
@@ -51,6 +72,7 @@ people:
     email: goubarco@gmail.com
     position: Membre
     pic: barbara
+    ancien: true
 
   bernard:
     name: Bernard Claing
@@ -113,27 +135,6 @@ people:
     email: 
     position: Mascotte
     pic: gorley
-
-  mosieurlaurin:
-    name: Patrick Laurin
-    email: patrick.laurin.3@ens.etsmtl.ca
-    email: mosieurlaurin@gmail.com
-    position: Ancien capitaine, Cofondateur et finissant
-    pic: mosieurlaurin
-    social:
-      - title: linkedin
-        url: https://ca.linkedin.com/in/laurinpatrick
-    ancien: true
-
-  hanen:
-    name: Hanen Garcia
-    email: hanen.garcia-gamardo.1@etsmtl.net
-    position: Membre (ancien co-capitaine, finissant)
-    pic: hanen
-    social:
-      - title: google-plus
-        url: https://plus.google.com/+HanenGarciaGamardo
-    ancien: true
 
   michael:
     name: Michael Faille
