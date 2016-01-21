@@ -38,6 +38,7 @@ people:
     social:
       - title: linkedin
         url: https://ca.linkedin.com/in/laurinpatrick
+    ancien: true
 
   hanen:
     name: Hanen Garcia
