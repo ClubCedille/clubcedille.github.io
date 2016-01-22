@@ -29,34 +29,6 @@ people:
       - title: google-plus
         url: https://plus.google.com/u/0/+PierreLucWagner
 
-  michael:
-    name: Michael Faille
-    email: michael.faille.1@ens.etsmtl.ca
-    position: Initiateur, cofondateur et ancien capitaine de Cedille
-    pic: michael
-    ancien: true
-
-  mosieurlaurin:
-    name: Patrick Laurin
-    email: patrick.laurin.3@ens.etsmtl.ca
-    email: mosieurlaurin@gmail.com
-    position: Ancien capitaine, Cofondateur et Finissant
-    pic: mosieurlaurin
-    social:
-      - title: linkedin
-        url: https://ca.linkedin.com/in/laurinpatrick
-    ancien: true
-
-  hanen:
-    name: Hanen Garcia
-    email: hanen.garcia-gamardo.1@etsmtl.net
-    position: Ancien co-capitaine et Finissant
-    pic: hanen
-    social:
-      - title: google-plus
-        url: https://plus.google.com/+HanenGarciaGamardo
-    ancien: true
-
   riku:
     name: Riku Avelar
     email: riku.avelar@gmail.com
@@ -73,13 +45,6 @@ people:
     email: kolytchev.d@gmail.com
     position: Python Charmer
     pic: dmitri
-
-  barbara:
-    name: Barbara Cokou Goudjo
-    email: goubarco@gmail.com
-    position: Membre
-    pic: barbara
-    ancien: true
 
   bernard:
     name: Bernard Claing
@@ -142,6 +107,41 @@ people:
     email:
     position: Mascotte
     pic: gorley
+
+michael:
+    name: Michael Faille
+    email: michael.faille.1@ens.etsmtl.ca
+    position: Initiateur, cofondateur et ancien capitaine de Cedille
+    pic: michael
+    ancien: true
+
+  mosieurlaurin:
+    name: Patrick Laurin
+    email: patrick.laurin.3@ens.etsmtl.ca
+    email: mosieurlaurin@gmail.com
+    position: Ancien capitaine, Cofondateur et Finissant
+    pic: mosieurlaurin
+    social:
+      - title: linkedin
+        url: https://ca.linkedin.com/in/laurinpatrick
+    ancien: true
+
+  hanen:
+    name: Hanen Garcia
+    email: hanen.garcia-gamardo.1@etsmtl.net
+    position: Ancien co-capitaine et Finissant
+    pic: hanen
+    social:
+      - title: google-plus
+        url: https://plus.google.com/+HanenGarciaGamardo
+    ancien: true
+
+  barbara:
+    name: Barbara Cokou Goudjo
+    email: goubarco@gmail.com
+    position: Membre
+    pic: barbara
+    ancien: true
 
   antoine:
     name: Antoine Dallaire
