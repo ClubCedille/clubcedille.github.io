@@ -27,7 +27,7 @@
                 {% for hash in site.data.[page.lang].members.people %}
                 {% assign member = hash[1] %}
                 {% if member.ancien %}
-                    {% include member_profile.html member=member length=exCount %}
+                    {% include member_profile.html member=member length=currentCount %}
                 {% endif %}
                 {% endfor %}
                 </div>
