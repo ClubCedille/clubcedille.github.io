@@ -22,12 +22,11 @@
                     <h3 class="section-subheading text-muted">{{ site.data.[page.lang].members.exDescription }}</h3>
                 </div>
             </div>
-            <div class="row"><hr></div>
-            <div class="row">
+            <div class="row ex-members">
                 {% for hash in site.data.[page.lang].members.people %}
                 {% assign member = hash[1] %}
                 {% if member.ancien %}
-                    {% include member_profile.html member=member length=currentCount %}
+                    {% include member_profile.html member=member length=exCount %}
                 {% endif %}
                 {% endfor %}
                 </div>
