@@ -17,7 +17,7 @@ people:
         url: https://ca.linkedin.com/in/samuelcardinal
       - title: google-plus
         url: https://plus.google.com/u/0/116303569391574948806
-  
+
   pierre-luc:
     name: Pierre-Luc Wagner
     email: pierreluc.wagner@gmail.com
@@ -28,6 +28,13 @@ people:
         url: https://www.linkedin.com/pub/pierre-luc-wagner/4a/b9b/42a
       - title: google-plus
         url: https://plus.google.com/u/0/+PierreLucWagner
+
+  michael:
+    name: Michael Faille
+    email: michael.faille.1@ens.etsmtl.ca
+    position: Initiateur, cofondateur et ancien capitaine de Cedille
+    pic: michael
+    ancien: true
 
   mosieurlaurin:
     name: Patrick Laurin
@@ -82,24 +89,24 @@ people:
 
   charles:
     name: Charles McCauley
-    email: 
+    email:
     position: Membre
-    pic: charles 
+    pic: charles
     social:
       - title: google-plus
         url: https://plus.google.com/113514234438391597391
 
   alexandre:
     name: Alexandre Viau
-    email: 
+    email:
     position: Membre
     pic: alexandre
 
   duc:
     name: Van Duc Nguyen
-    email: 
+    email:
     position: Membre
-    pic: duc 
+    pic: duc
 
   antony:
     name: Anthony Le
@@ -119,7 +126,7 @@ people:
         url: https://plus.google.com/+YamlalGotame
 
   nadeau:
-    name: Nicolas De Oliveira Nadeau 
+    name: Nicolas De Oliveira Nadeau
     email: niconadeau0@gmail.com
     position: Membre
     pic: nadeau
@@ -132,16 +139,9 @@ people:
 
   gorley:
     name: Philippe Gorley
-    email: 
+    email:
     position: Mascotte
     pic: gorley
-
-  michael:
-    name: Michael Faille
-    email: michael.faille.1@ens.etsmtl.ca
-    position: Initiateur, cofondateur et ancien capitaine de Cedille
-    pic: michael
-    ancien: true
 
   antoine:
     name: Antoine Dallaire
