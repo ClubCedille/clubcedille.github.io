@@ -24,12 +24,14 @@
 						<label>Nom</label>
 						<input name="nom" type="text" required/>
 						<label>Courriel</label>
-						<input name="courriel" type="text" required/>
+						<input name="courriel" type="email" required/>
 						<label>Message</label>
 						<textarea name="message" required></textarea>
+						<p>
+							<br/><input type="checkbox" name="conscentement" id="conscentement"/> Je suis intéressé(e) à m'impliquer dans le club.
+						</p>
 						<p><button class="btn btn-primary">Soumettre</button></p>
 					</div>
-					<div class="g-recaptcha" data-sitekey="6LfLfRYTAAAAACZNafl7E7zG9W2j13fpCHgw9WkM"></div>
 				</form>
 				<form id="adhesion-form" name="adhesion-form" class="col-xs-12 hidden bg-light-gray" action="http://cedille.etsmtl.ca:8080/" method="post">
 					<div>
@@ -41,7 +43,7 @@
 							<label>Nom *</label>
 							<input name="nom" type='text' required/>
 							<label>Courriel *</label>
-							<input name="courriel" type='text' required/>
+							<input name="courriel" type='email' required/>
 						</p>
 
 						<h5>Formation *</h5>
@@ -69,14 +71,9 @@
 							Génie de la production automatisée</label>
 						</p>
 						<h5>Autre : </h5>
-						<p>
-							Consentement pour recevoir des courriels du club *
-							<br/><input type="checkbox" name="conscentement" id="conscentement"/> Je suis d'accord
-						</p>
 						<p><button class="btn btn-primary">Soumettre</button></p>
 						<!-- API Key: AIzaSyAy-HwVt5J_r50O4xKXFXHaUj1Bwldtz48 -->
 					</div>
-					<div class="g-recaptcha" data-sitekey="6LfLfRYTAAAAACZNafl7E7zG9W2j13fpCHgw9WkM"></div>
 				</form>
 			</div>
 		</div>
