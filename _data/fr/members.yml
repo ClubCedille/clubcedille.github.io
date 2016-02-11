@@ -127,20 +127,22 @@ people:
     email: mosieurlaurin@gmail.com
     position: Ancien capitaine, Cofondateur et Finissant
     pic: mosieurlaurin
+    ancien: true
     social:
       - title: linkedin
         url: https://ca.linkedin.com/in/laurinpatrick
-    ancien: true
+ 
 
   hanen:
     name: Hanen Garcia
     email: hanen.garcia-gamardo.1@etsmtl.net
     position: Ancien co-capitaine et Finissant
     pic: hanen
+    ancien: true
     social:
       - title: google-plus
         url: https://plus.google.com/+HanenGarciaGamardo
-    ancien: true
+    
 
   barbara:
     name: Barbara Cokou Goudjo
@@ -154,7 +156,8 @@ people:
     email: antoine.dallaire@gmail.com
     position: Membre
     pic: antoine
+    ancien: true
     social:
       - title: google-plus
         url: https://plus.google.com/u/0/116303569391574948806
-    ancien: true
+    
