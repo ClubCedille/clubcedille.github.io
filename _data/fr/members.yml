@@ -7,10 +7,27 @@ exDescription: "Bien qu'ils ne soient plus membres du club Cedille, nous remerci
 footer: Et beaucoup plus!
 
 people:
+  batman:
+    name: Yamlal Gotame
+    email: yamugotame@gmail.com
+    position: Capitaine
+    pic: batman
+    social:
+      - title: linkedin
+        url: https://ca.linkedin.com/in/ygotame
+      - title: google-plus
+        url: https://plus.google.com/+YamlalGotame
+  
+  nadeau:
+    name: Nicolas De Oliveira Nadeau
+    email: niconadeau0@gmail.com
+    position: Co-Capitaine
+    pic: nadeau
+        
   samuel:
     name: Samuel Cardinal
     email: samdidos@gmail.com
-    position: Capitaine
+    position: Membre
     pic: samuel
     social:
       - title: linkedin
@@ -21,7 +38,7 @@ people:
   pierre-luc:
     name: Pierre-Luc Wagner
     email: pierreluc.wagner@gmail.com
-    position: Co-Capitaine
+    position: Membre
     pic: pierre-luc
     social:
       - title: linkedin
@@ -72,23 +89,6 @@ people:
     email: antony.le.truong.tho@gmail.ca
     position: Membre
     pic: antony
-
-  batman:
-    name: Yamlal Gotame
-    email: yamugotame@gmail.com
-    position: Membre
-    pic: batman
-    social:
-      - title: linkedin
-        url: https://ca.linkedin.com/in/ygotame
-      - title: google-plus
-        url: https://plus.google.com/+YamlalGotame
-
-  nadeau:
-    name: Nicolas De Oliveira Nadeau
-    email: niconadeau0@gmail.com
-    position: Membre
-    pic: nadeau
     
   jcbd:
     name: Jean-Pierre Betrand Dorion
