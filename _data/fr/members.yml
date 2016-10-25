@@ -17,17 +17,11 @@ people:
         url: https://ca.linkedin.com/in/ygotame
       - title: google-plus
         url: https://plus.google.com/+YamlalGotame
-  
-  nadeau:
-    name: Nicolas De Oliveira Nadeau
-    email: niconadeau0@gmail.com
-    position: Co-Capitaine
-    pic: nadeau
         
   samuel:
     name: Samuel Cardinal
     email: samdidos@gmail.com
-    position: Membre
+    position: Co-Capitaine
     pic: samuel
     social:
       - title: linkedin
@@ -35,16 +29,11 @@ people:
       - title: google-plus
         url: https://plus.google.com/u/0/116303569391574948806
 
-  pierre-luc:
-    name: Pierre-Luc Wagner
-    email: pierreluc.wagner@gmail.com
-    position: Membre
-    pic: pierre-luc
-    social:
-      - title: linkedin
-        url: https://www.linkedin.com/pub/pierre-luc-wagner/4a/b9b/42a
-      - title: google-plus
-        url: https://plus.google.com/u/0/+PierreLucWagner
+  michael:
+    name: Michael Faille
+    email: michael.faille.1@ens.etsmtl.ca
+    position: Trésorier, initiateur, cofondateur et ancien capitaine 
+    pic: michael
 
   riku:
     name: Riku Avelar
@@ -102,18 +91,18 @@ people:
     position: Membre
     pic: villers
 
-  michael:
-    name: Michael Faille
-    email: michael.faille.1@ens.etsmtl.ca
-    position: Initiateur, cofondateur et ancien capitaine de Cedille
-    pic: michael
+  nadeau:
+    name: Nicolas De Oliveira Nadeau
+    email: niconadeau0@gmail.com
+    position: Ancien trésorier
+    pic: nadeau
     ancien: true
 
   mosieurlaurin:
     name: Patrick Laurin
     email: patrick.laurin.3@ens.etsmtl.ca
     email: mosieurlaurin@gmail.com
-    position: Ancien capitaine, Cofondateur et Finissant
+    position: Ancien capitaine et cofondateur
     pic: mosieurlaurin
     ancien: true
     social:
@@ -124,7 +113,7 @@ people:
   hanen:
     name: Hanen Garcia
     email: hanen.garcia-gamardo.1@etsmtl.net
-    position: Ancien co-capitaine et Finissant
+    position: Ancien co-capitaine
     pic: hanen
     ancien: true
     social:
@@ -132,13 +121,18 @@ people:
         url: https://plus.google.com/+HanenGarciaGamardo
     
 
-  barbara:
-    name: Barbara Cokou Goudjo
-    email: goubarco@gmail.com
-    position: Membre
-    pic: barbara
+   pierre-luc:
+    name: Pierre-Luc Wagner
+    email: pierreluc.wagner@gmail.com
+    position: Ancien co-capitaine
+    pic: pierre-luc
     ancien: true
-
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/pub/pierre-luc-wagner/4a/b9b/42a
+      - title: google-plus
+        url: https://plus.google.com/u/0/+PierreLucWagner
+        
   antoine:
     name: Antoine Dallaire
     email: antoine.dallaire@gmail.com
@@ -148,4 +142,3 @@ people:
     social:
       - title: google-plus
         url: https://plus.google.com/u/0/116303569391574948806
-    
