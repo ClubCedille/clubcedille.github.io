@@ -45,6 +45,7 @@ people:
         url: https://twitter.com/RikuAvelar
       - title: google-plus
         url: https://plus.google.com/u/0/102156113739688652693
+    ancien: true
 
   bernard:
     name: Bernard Claing
@@ -115,11 +116,10 @@ people:
     email: hanen.garcia-gamardo.1@etsmtl.net
     position: Ancien co-capitaine
     pic: hanen
-    ancien: true
     social:
       - title: google-plus
         url: https://plus.google.com/+HanenGarciaGamardo
-    
+    ancien: true 
 
   pierre-luc:
     name: Pierre-Luc Wagner
