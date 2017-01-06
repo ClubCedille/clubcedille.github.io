@@ -33,7 +33,7 @@ header{
   .navbar-brand{
     margin-bottom:0;
     background-color: rgba(238, 153, 17, 0.15);
-    
+
     &:hover{
       background-color: rgba(238, 153, 17, 0.3);
     }
@@ -63,7 +63,7 @@ header{
 #contact{
   background-attachment: fixed;
   text-align: center;
-  
+
   & form{
     /*background: white;*/
     text-align: left;
@@ -82,7 +82,7 @@ header{
     & p{
       overflow: hidden;
       clear: both;
-      
+
       & label{
       }
     }
@@ -94,7 +94,7 @@ header{
     }
 
     & button{
-      
+
     }
   }
 }
@@ -133,4 +133,8 @@ header{
   .team-member img{
     @extend .filter-grayscale;
   }
+}
+
+.member {
+  height: 420px;
 }

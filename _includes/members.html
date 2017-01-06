@@ -9,12 +9,11 @@
             </div>
             <div class="row">
                 {% for hash in site.data.[page.lang].members.people %}
-                {% assign member = hash[1] %}
-                {% unless member.ancien %}
-                    {% include member_profile.html member=member length=currentCount %}
-                {% endunless %}
+                  {% assign member = hash[1] %}
+                  {% if member.ancien == false %}
+                      {% include member_profile.html member=member %}
+                  {% endif %}
                 {% endfor %}
-                </div>
             </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -24,12 +23,12 @@
             </div>
             <div class="row ex-members">
                 {% for hash in site.data.[page.lang].members.people %}
-                {% assign member = hash[1] %}
-                {% if member.ancien %}
-                    {% include member_profile.html member=member length=exCount %}
-                {% endif %}
+                  {% assign member = hash[1] %}
+                  {% if member.ancien %}
+                      {% include member_profile.html member=member %}
+                  {% else %}
+                  {% endif %}
                 {% endfor %}
-                </div>
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
