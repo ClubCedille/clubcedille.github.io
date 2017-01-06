@@ -12,17 +12,19 @@ people:
     email: yamugotame@gmail.com
     position: Capitaine
     pic: batman
+    ancien: false
     social:
       - title: linkedin
         url: https://ca.linkedin.com/in/ygotame
       - title: google-plus
         url: https://plus.google.com/+YamlalGotame
-        
+
   samuel:
     name: Samuel Cardinal
     email: samdidos@gmail.com
     position: Co-Capitaine
     pic: samuel
+    ancien: false
     social:
       - title: linkedin
         url: https://ca.linkedin.com/in/samuelcardinal
@@ -32,8 +34,9 @@ people:
   michael:
     name: Michael Faille
     email: michael.faille.1@ens.etsmtl.ca
-    position: Trésorier, initiateur, cofondateur et ancien capitaine 
+    position: Trésorier, initiateur, cofondateur et ancien capitaine
     pic: michael
+    ancien: false
 
   riku:
     name: Riku Avelar
@@ -52,12 +55,14 @@ people:
     email: bernard.claing.1@ens.etsmtl.ca
     position: Membre
     pic: bernard
+    ancien: false
 
   charles:
     name: Charles McCauley
     email:
     position: Membre
     pic: charles
+    ancien: false
     social:
       - title: google-plus
         url: https://plus.google.com/113514234438391597391
@@ -67,30 +72,36 @@ people:
     email:
     position: Membre
     pic: alexandre
+    ancien: false
 
   duc:
     name: Van Duc Nguyen
     email:
     position: Membre
     pic: duc
+    ancien: false
 
   antony:
     name: Anthony Le
     email: antony.le.truong.tho@gmail.ca
     position: Membre
     pic: antony
-    
+    ancien: false
+
   jcbd:
     name: Jean-Pierre Betrand Dorion
     email: jpjrdorion@hotmail.com
     position: Membre
     pic: jpbd
+    ancien: false
 
   villers:
     name: Antoine de Villers
     email: antoinedevillers0307@gmail.com
     position: Membre
     pic: villers
+    ancien: false
+
 
   nadeau:
     name: Nicolas De Oliveira Nadeau
@@ -109,7 +120,7 @@ people:
     social:
       - title: linkedin
         url: https://ca.linkedin.com/in/laurinpatrick
- 
+
 
   hanen:
     name: Hanen Garcia
@@ -119,7 +130,7 @@ people:
     social:
       - title: google-plus
         url: https://plus.google.com/+HanenGarciaGamardo
-    ancien: true 
+    ancien: true
 
   pierre-luc:
     name: Pierre-Luc Wagner
@@ -132,7 +143,7 @@ people:
         url: https://www.linkedin.com/pub/pierre-luc-wagner/4a/b9b/42a
       - title: google-plus
         url: https://plus.google.com/u/0/+PierreLucWagner
-        
+
   antoine:
     name: Antoine Dallaire
     email: antoine.dallaire@gmail.com
