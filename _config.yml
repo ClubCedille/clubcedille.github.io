@@ -4,7 +4,7 @@ url: http://cedille.etsmtl.ca
 title: Club Cedille
 email: clubcedille@gmail.com
 description: "Club Cedille Description"
-image: "/img/logos/cedille-logo-black.png"
+image: "/img/logos/cedille-logo-new.png"
 
 photoAttribution:
   title: Photo
@@ -37,10 +37,10 @@ address:
   - line: 1100, rue Notre-Dame Ouest
   - line: Montréal (Québec) H3C 1K3
   - line: Local A-1726
-  
+
 defaults:
   -
-    scope: 
+    scope:
       path: "" # All files
     values:
       lang: fr
@@ -50,7 +50,7 @@ markdown: kramdown
 permalink: pretty
 highlighter: pygments
 
-exclude: 
+exclude:
   - LICENSE
   - README.md
   - Gemfile

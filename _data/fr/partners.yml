@@ -1,0 +1,10 @@
+title: Partenaires
+list:
+  ets:
+    name: ETS
+    logo: ets-noir-transparent.png
+    website: http://etsmtl.ca/
+  bnc:
+    name: Banque Nationale
+    logo: bnc.jpg
+    website: http://bnc.ca/
