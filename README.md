@@ -10,6 +10,17 @@ Requirements:
   * Ruby
   * Jekyll (`gem install jekyll`)
 
+### Install on Linux
+
+Notice: The commands shown here are used as examples of what to do for each steps on Ubuntu. They may differ on other Linux distributions. 
+
+1. Install Ruby and Jekyll: `sudo apt-get install ruby jekyll`
+2. Use `git clone` to clone the repo: `git clone https://github.com/ClubCedille/clubcedille.github.io.git`
+3. Move to the project's directory: `cd clubcedille.github.io/`
+4. Build the project: `jekyll build`
+5. Run the server: `jekyll server`
+6. The server address will be printed to the terminal. Use this IP address to access the website from your browser. By default, it should be `http://127.0.0.1:4000/`. 
+
 # How to use
 
 ### General
