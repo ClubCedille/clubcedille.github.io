@@ -1,0 +1,30 @@
+
+<!-- Partners Aside -->
+<section id="partners">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ site.data.[page.lang].partners.title }}</h2>
+      </div>
+    </div>
+  </div>
+  <aside class="partners">
+    <div class="container">
+      <div class="row">
+        {% for hash in site.data.[page.lang].partners.list %}
+        {% assign partner = hash[1] %}
+        <div class="{% if forloop.length < 4 %}col-sm-{{12 | divided_by: forloop.length}}{% else %} col-md-3 col-sm-6 {% endif %}">
+          <a href="{{partner.website}}">
+            <img src="{{site.baseurl}}/img/logos/{{partner.logo}}" class="img-responsive img-centered" alt="{{partner.name}}" title="{{partner.name}}">
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </aside>
+  <div class="col-lg-12 text-center">
+    <a href="https://www.jedonneenligne.org/fdets/index.php?FrmUID=75&FrmActUID1922=tyC4celGNuDLm%2BWJHk6urw%3D%3D">
+      <img src="img/image_don.png" alt="Donnez en ligne!" border="50"/>
+    </a>
+  </div>
+</section>
