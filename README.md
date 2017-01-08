@@ -75,11 +75,7 @@ An eventual migration to a collection (similar to Projects) may be in store for 
 
 ###TODO
 
-* Change some colors in `_config.yml`
-* Add actual content
-* Find better background image for top
-* Add logo
-* Add mailing script (or find an alternative)
+Check our [issues page](https://github.com/ClubCedille/clubcedille.github.io/issues) more details
 
 =========
 For more details, read [documentation](http://jekyllrb.com/)
