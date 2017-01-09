@@ -2,11 +2,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; {{ site.title }} 2014</span>
+                    <span class="copyright">Copyleft <span class="copyleft">©</span> {{ site.title }}</span>
+
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        {% for network in site.social %}
+                        {% for hash in site.social %}
+                        {% assign network = hash[1] %}
                         <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
                         </li>
                         {% endfor %}

@@ -26,17 +26,15 @@ color:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: facebook
+  facebook:
+    title: facebook
     url: http://facebook.com/clubcedille
-  - title: github
+  github:
+    title: github
     url: http://github.com/ClubCedille
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: Cedille
-  - line: 1100, rue Notre-Dame Ouest
-  - line: Montréal (Québec) H3C 1K3
-  - line: Local A-1726
+  linkedin:
+    title: linkedin
+    url: https://www.linkedin.com/company/cedille
 
 defaults:
   -

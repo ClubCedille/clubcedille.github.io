@@ -1,7 +1,20 @@
 title: Contact
 description: Question? Commentaire? Envoyez-nous là par courriel ou venez nous rencontrer à notre local
 
-contact_informations: courriel&colon; cedille@ens.etsmtl.ca<br/>local&colon; Corridor des clubs, local A-1726<br/>téléphone&colon; (514) 396-8800 ext.7302
+contact_informations:
+  phone:
+    title: Téléphone
+    value: (514) 396-8800 ext.7302
+  email:
+    title: Courriel
+    value: cedille@ens.etsmtl.ca
+
+address:
+  title: Adresse
+  lines:
+    1: 1100, rue Notre-Dame Ouest
+    2: Montréal (Québec) H3C 1K3
+    3: Local A-1726 (corridor des clubs)
 
 email:
     placeholder: Votre Courriel
@@ -12,11 +25,11 @@ name:
 message:
     placeholder: Votre Message
     validation: Vous devez écrire un message
-    
+
 buttons:
     contact: Demande d'information
     adhesion: Demande d'adhésion
-    
+
 submit: Soumettre
 
 success: Merci! On lira votre message sous peu.
