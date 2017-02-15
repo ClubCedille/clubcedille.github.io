@@ -16,6 +16,8 @@ address:
     2: Montréal (Québec) H3C 1K3
     3: Local A-1726 (corridor des clubs)
 
+form_header: Questions? Commentaires? Tu veux t'impliquer?
+
 email:
     placeholder: Votre Courriel
     validation: Vous devez écrire un courriel valide
@@ -32,5 +34,6 @@ buttons:
 
 submit: Soumettre
 
+required: Requis
 success: Merci! On lira votre message sous peu.
 failure: Hm... Il semble que nous n'avons pas encore fini cette fonction. Nous allons la réparer sous peu. Si vous avez un message à nous envoyer, vous pouvez nous rejoindre par Facebook.

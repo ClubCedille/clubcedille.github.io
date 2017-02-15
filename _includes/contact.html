@@ -15,36 +15,31 @@
 					{{line}}<br>
 					{% endfor %}
 					</h3>
-
 				</div>
 			</div>
-			<div class="row">
-				<div class="btn-group btn-group-justified form-selector">
-					<a class="btn btn-primary active" data-target="#contact-form" href="#contact" class="page-scroll">
-						{{site.data.[page.lang].contact.buttons.contact}}
-					</a>
-					<a class="btn btn-primary" data-target="#adhesion-form" href="#contact" class="page-scroll">
-						{{site.data.[page.lang].contact.buttons.adhesion}}
-					</a>
+
+
+				<div>
+					<h4 id="test">{{site.data.[page.lang].contact.form_header}}</h4>
 				</div>
 
-				<form id="contact-form" name="contact-form" class="google-form col-xs-12 bg-light-gray" action="http://cedille.etsmtl.ca:8080/" method="post">
+				<form action="https://formspree.io/cedille@ens.etsmtl.ca" method="POST" onsubmit="validate()" id="contact-form" name="contact-form" class="col-xs-12 bg-light-orange" >
 					<div>
 						<input type="hidden" name="source" value="contact-form"/>
-						<h4>Demande d'information</h4>
-						<label>Nom</label>
-						<input name="nom" type="text" required/>
-						<label>Courriel</label>
-						<input name="courriel" type="email" required/>
-						<label>Message</label>
-						<textarea name="message" required></textarea>
+
+						<label>Nom *</label>
+						<input id="formName" onchange="lockSubmit()" name="nom" type="text" placeholder={{site.data.[page.lang].contact.required}} required/>
+						<label>Courriel *</label>
+						<input id="formEmail" onchange="lockSubmit()" name="_replyto" type="email" placeholder={{site.data.[page.lang].contact.required}} required/>
+						<label>Message *</label>
+						<textarea id="formMessage" onchange="lockSubmit()" name="message" placeholder={{site.data.[page.lang].contact.required}} required></textarea>
 						<p>
-							<br/><input type="checkbox" name="conscentement" id="conscentement"/> Je suis intéressé(e) à m'impliquer dans le club.
+							<br/><input id="formCheckbox" type="checkbox" name="conscentement" id="conscentement"/> Je suis intéressé(e) à m'impliquer dans le club.
 						</p>
-						<p><button class="btn btn-primary">Soumettre</button></p>
+						<p><button id="submitButton" type="submit"  class="btn btn-primary" disabled>Soumettre</button></p>
 					</div>
 				</form>
-				<form id="adhesion-form" name="adhesion-form" class="col-xs-12 hidden bg-light-gray" action="http://cedille.etsmtl.ca:8080/" method="post">
+				<!-- <form id="adhesion-form" name="adhesion-form" class="col-xs-12 hidden bg-light-gray" action="http://cedille.etsmtl.ca:8080/" method="post">
 					<div>
 						<input type="hidden" name="source" value="adhesion-form"/>
 						<h4>Demande d'adhésion</h4>
@@ -83,9 +78,56 @@
 						</p>
 						<h5>Autre : </h5>
 						<p><button class="btn btn-primary">Soumettre</button></p>
-						<!-- API Key: AIzaSyAy-HwVt5J_r50O4xKXFXHaUj1Bwldtz48 -->
-					</div>
-				</form>
-			</div>
+						 --><!-- API Key: AIzaSyAy-HwVt5J_r50O4xKXFXHaUj1Bwldtz48 -->
+					<!-- </div>
+				</form> -->
+
 		</div>
 	</section>
+
+	<script>
+	    function validate() {
+	    var name = document.getElementById("formName");
+			var email = document.getElementById("formEmail");
+			var message = document.getElementById("formMessage");
+
+			if (name.value == "" || email.value == "" || message.value == "") {
+				alert("Les champs sont requis");
+	      return false;
+	    } else {
+				alert("Votre message a été envoyé!");
+				clearForm();
+	      return true;
+	    }
+	}
+	</script>
+	<script>
+			function lockSubmit() {
+			var name = document.getElementById("formName");
+			var email = document.getElementById("formEmail");
+			var message = document.getElementById("formMessage");
+			var subBtn = document.getElementById("submitButton");
+
+			if (name.value == "" || email.value == "" || message.value == "") {
+				subBtn.disabled = true;
+			} else {
+				subBtn.disabled = false;
+			}
+	}
+	</script>
+
+	<script>
+			function clearForm() {
+			var name = document.getElementById("formName");
+			var email = document.getElementById("formEmail");
+			var message = document.getElementById("formMessage");
+			var chkbox = document.getElementById("formCheckbox");
+			var subBtn = document.getElementById("submitButton");
+
+			name.value = "";
+			email.value = "";
+			message.value = "";
+			chkbox.checked = false;
+			subBtn.disabled = true;
+	}
+	</script>
