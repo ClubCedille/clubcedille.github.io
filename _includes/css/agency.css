@@ -68,6 +68,10 @@ h6 {
     background-color: #222;
 }
 
+.bg-light-orange {
+    background-color: #ffe191;
+}
+
 .btn-primary {
     border-color: #{{ site.color.primary }};
     text-transform: uppercase;

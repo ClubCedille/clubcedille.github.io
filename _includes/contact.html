@@ -1,91 +1,161 @@
 <section id="contact">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 text-center">
-					<h2 class="section-heading">{{site.data.[page.lang].contact.title}}</h2>
-					<h3 class="section-subheading text-muted">{{site.data.[page.lang].contact.description}}</h3>
-					{% for hash in {{site.data.[page.lang].contact.contact_informations}} %}
-					{% assign info = hash[1] %}
-					<h3 class="section-subheading">{{info.title}} : {{info.value}}</h3>
-					{% endfor %}
-					<h3 class="section-subheading">{{site.data.[page.lang].contact.address.title}} : <br><br>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2 class="section-heading">{{site.data.[page.lang].contact.title}}</h2>
+				<h3 class="section-subheading text-muted">{{site.data.[page.lang].contact.description}}</h3>
+				{% for hash in {{site.data.[page.lang].contact.contact_informations}} %}
+				{% assign info = hash[1] %}
+				<h3 class="section-subheading">{{info.title}} : {{info.value}}</h3>
+				{% endfor %}
+				<h3 class="section-subheading">{{site.data.[page.lang].contact.address.title}} : <br><br>
 
 					{% for hash in {{site.data.[page.lang].contact.address.lines}} %}
 					{% assign line = hash[1] %}
 					{{line}}<br>
 					{% endfor %}
-					</h3>
-
-				</div>
-			</div>
-			<div class="row">
-				<div class="btn-group btn-group-justified form-selector">
-					<a class="btn btn-primary active" data-target="#contact-form" href="#contact" class="page-scroll">
-						{{site.data.[page.lang].contact.buttons.contact}}
-					</a>
-					<a class="btn btn-primary" data-target="#adhesion-form" href="#contact" class="page-scroll">
-						{{site.data.[page.lang].contact.buttons.adhesion}}
-					</a>
-				</div>
-
-				<form id="contact-form" name="contact-form" class="google-form col-xs-12 bg-light-gray" action="http://cedille.etsmtl.ca:8080/" method="post">
-					<div>
-						<input type="hidden" name="source" value="contact-form"/>
-						<h4>Demande d'information</h4>
-						<label>Nom</label>
-						<input name="nom" type="text" required/>
-						<label>Courriel</label>
-						<input name="courriel" type="email" required/>
-						<label>Message</label>
-						<textarea name="message" required></textarea>
-						<p>
-							<br/><input type="checkbox" name="conscentement" id="conscentement"/> Je suis intéressé(e) à m'impliquer dans le club.
-						</p>
-						<p><button class="btn btn-primary">Soumettre</button></p>
-					</div>
-				</form>
-				<form id="adhesion-form" name="adhesion-form" class="col-xs-12 hidden bg-light-gray" action="http://cedille.etsmtl.ca:8080/" method="post">
-					<div>
-						<input type="hidden" name="source" value="adhesion-form"/>
-						<h4>Demande d'adhésion</h4>
-						<p>
-							<label>Prénom *</label>
-							<input name="prenom" type='text' required/>
-							<label>Nom *</label>
-							<input name="nom" type='text' required/>
-							<label>Courriel *</label>
-							<input name="courriel" type='email' required/>
-						</p>
-
-						<h5>Formation *</h5>
-						<p>
-							<label><input type="radio" name="formation" value="Baccalauréat"/> Baccalauréat</label>
-							<label><input type="radio" name="formation" value="Maîtrise"/> Maîtrise</label>
-							<label><input type="radio" name="formation" value="Doctorat" required/> Doctorat</label>
-						</p>
-
-						<h5>Programme d'étude *</h5>
-						<p>
-							<label><input type="radio" name="programme" value="Génie des technologies de l'information"/>
-							Génie des technologies de l'information</label>
-							<label><input type="radio" name="programme" value="Génie électrique"/>
-							Génie électrique</label>
-							<label><input type="radio" name="programme" value="Génie mécanique"/>
-							Génie mécanique</label>
-							<label><input type="radio" name="programme" value="Génie logiciel"/>
-							Génie logiciel</label>
-							<label><input type="radio" name="programme" value="Génie des opérations et de la logistique"/>
-							Génie des opérations et de la logistique</label>
-							<label><input type="radio" name="programme" value="Génie de la construction"/>
-							Génie de la construction</label>
-							<label><input type="radio" name="programme" value="Génie de la production automatisée" required/>
-							Génie de la production automatisée</label>
-						</p>
-						<h5>Autre : </h5>
-						<p><button class="btn btn-primary">Soumettre</button></p>
-						<!-- API Key: AIzaSyAy-HwVt5J_r50O4xKXFXHaUj1Bwldtz48 -->
-					</div>
-				</form>
+				</h3>
 			</div>
 		</div>
-	</section>
+
+
+		<div class="row">
+			<div class="btn-group btn-group-justified form-selector">
+				<a class="btn btn-primary active" data-target="#contact-form" class="page-scroll">
+					{{site.data.[page.lang].contact.buttons.contact}}
+				</a>
+				<a class="btn btn-primary" data-target="#adhesion-form" class="page-scroll">
+					{{site.data.[page.lang].contact.buttons.adhesion}}
+				</a>
+			</div>
+		</div>
+
+		<form action="https://formspree.io/cedille@ens.etsmtl.ca" method="POST" onsubmit="validateContact()" id="contact-form" name="contact-form" class="col-xs-12 bg-light-orange" >
+			<div>
+				<input type="hidden" name="source" value="contact-form"/>
+
+				<label>Nom *</label>
+				<input name="nom" type="text" placeholder={{site.data.[page.lang].contact.required}} required/>
+				<label>Courriel *</label>
+				<input name="_replyto" type="email" placeholder={{site.data.[page.lang].contact.required}} required/>
+				<label>Message *</label>
+				<textarea name="message" placeholder={{site.data.[page.lang].contact.required}} required></textarea>
+
+				<p><button type="submit"  class="btn btn-primary">Soumettre</button></p>
+			</div>
+		</form>
+
+		<form action="https://formspree.io/cedille@ens.etsmtl.ca" method="POST" onsubmit="validateAdhesion()" id="adhesion-form" name="adhesion-form" class="col-xs-12 hidden bg-light-orange">
+			<div>
+				<input type="hidden" name="source" value="adhesion-form"/>
+				<h4>Demande d'adhésion</h4>
+				<p>
+					<label>Prénom *</label>
+					<input name="prenom" type='text' placeholder={{site.data.[page.lang].contact.required}} required/>
+					<label>Nom *</label>
+					<input name="nom" type='text' placeholder={{site.data.[page.lang].contact.required}} required/>
+					<label>Courriel *</label>
+					<input name="_replyto" type='email' placeholder={{site.data.[page.lang].contact.required}} required/>
+				</p>
+
+				<h5>Formation *</h5>
+				<p>
+					<select id="selectFormation" onchange="addOtherFormation()" name="formation" required>
+						<option disabled selected value>-- Choisissez une formation --</option>
+						<option value="bacc"/>Baccalauréat</option>
+						<option value="master"/>Maîtrise</option>
+						<option value="doctor"/> Doctorat</option>
+						<option value="other"> Autre...</option>
+					</select>
+				</p>
+			</p>
+			<p id="otherFormation" hidden>Autre * : <input id="otherFormationInput" type="text" name="autreFormation"/></p>
+			<p>
+
+				<h5>Programme d'étude *</h5>
+				<p>
+					<select id="selectProgram" onchange="addOtherProgram()" name="programme" required>
+						<option disabled selected value>-- Choisissez un programme --</option>
+						<option value="gti"/>Génie des technologies de l'information</option>
+						<option value="ele"/>Génie électrique</option>
+						<option value="mec"/>Génie mécanique</option>
+						<option value="log"/>Génie logiciel</option>
+						<option value="gol"/>Génie des opérations et de la logistique</option>
+						<option value="ctn"/>Génie de la construction</option>
+						<option value="gpa"/>Génie de la production automatisée</option>
+						<option value="other"> Autre...</option>
+					</select>
+				</p>
+				<p id="otherProgram" hidden>Autre * : <input id="otherProgramInput" type="text" name="autreProgramme"/></p>
+				<p>
+					<label>Expérience *</label>
+					<textarea name="experience" placeholder={{site.data.[page.lang].contact.required}} required></textarea>
+					<label>Intérêts *</label>
+					<textarea name="interets" placeholder={{site.data.[page.lang].contact.required}} required></textarea>
+				</p>
+				<p>
+					<br/><input id="adhesionCheckbox" type="checkbox" onchange="toggleSubmitDisabled()" name="conscentement" id="conscentement"/> Je désire adhérer au club *
+				</p>
+				<p><button id="adhesionSubmitButton" type="submit" class="btn btn-primary" disabled>Soumettre</button></p>
+			</div>
+		</form>
+
+	</div>
+</section>
+
+<script>
+
+//Contact form variables
+var contactForm = document.getElementById("contact-form");
+
+//Adhesion form variables
+var adhesionForm = document.getElementById("adhesion-form");
+
+var chkboxA = document.getElementById("adhesionCheckbox");
+var subBtnA = document.getElementById("adhesionSubmitButton");
+
+var otherProg = document.getElementById("otherProgram");
+var otherProgInput = document.getElementById("otherProgramInput");
+var selectProg = document.getElementById("selectProgram");
+
+var otherFormation = document.getElementById("otherFormation");
+var otherFormationInput = document.getElementById("otherFormationInput");
+var selectFormation = document.getElementById("selectFormation");
+
+function validateContact() {
+	contactForm.submit();
+	contactForm.reset();
+}
+
+function validateAdhesion() {
+	adhesionForm.submit();
+	adhesionForm.reset();
+}
+
+function toggleSubmitDisabled() {
+	subBtnA.disabled = !chkboxA.checked;
+}
+
+function addOtherProgram(){
+	if (selectProg.options[selectProg.selectedIndex].value == "other"){
+		otherProg.hidden = false;
+		otherProgInput.required = true;
+	}
+	else {
+		otherProg.hidden = true;
+		otherProgInput.required = false;
+	}
+}
+
+function addOtherFormation(){
+	if (selectFormation.options[selectFormation.selectedIndex].value == "other"){
+		otherFormation.hidden = false;
+		otherFormationInput.required = true;
+	}
+	else {
+		otherFormation.hidden = true;
+		otherFormationInput.required = false;
+	}
+}
+
+</script>
