@@ -35,7 +35,7 @@ Notice: The commands shown here are used as examples of what to do for each step
 
 All section should have a similarly named YAML file in `/_data`. These files will at least contain the Title and Description of each section, and sometimes have more data to generate that part.
 
-###Posts
+### Posts
 
 Posts, that is to say "News Items", are in `/_posts`.
 
@@ -43,7 +43,7 @@ Posts must follow Jekyll's nomenclature, and be named as follows: YYYY-MM-DD-pos
 
 Post categories, if they have any, should **not** have any spaces in them. They'll be used for the URL. If anything, try generating the site once you've made your changes and see if you can access your article.
 
-###Projects 
+### Projects 
 
 Projects are are in `/_projects`
 
@@ -59,11 +59,11 @@ Write them in a manner similar to posts, that is to say headed with YAML Front M
 An HR seperating the title from the content you see here. The image above should also be included.
 ```
 
-###About
+### About
 
 All information for the About section exists within `/_data/about.yml`.
 
-###Members
+### Members
 
 Team members and info are in `_data/fr/members.yml`
 
@@ -73,9 +73,11 @@ An eventual migration to a collection (similar to Projects) may be in store for 
 
 =========
 
-###TODO
+### TODO
 
 Check our [issues page](https://github.com/ClubCedille/clubcedille.github.io/issues) more details
 
 =========
+
 For more details, read [documentation](http://jekyllrb.com/)
+
