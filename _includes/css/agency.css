@@ -68,6 +68,10 @@ h6 {
     background-color: #222;
 }
 
+.bg-light-orange {
+    background-color: #ffe191;
+}
+
 .btn-primary {
     border-color: #{{ site.color.primary }};
     text-transform: uppercase;
@@ -647,7 +651,7 @@ section h3.section-subheading {
     margin-top: 0;
 }
 
-aside.clients img {
+aside.partners img {
     margin: 50px auto;
 }
 
@@ -728,6 +732,19 @@ footer span.copyright {
     line-height: 40px;
 }
 
+/*source : https://medium.com/@mmeida/how-to-insert-the-copyleft-symbol-f093113cc2cf#.rkbciwp7c*/
+footer span.copyleft {
+  display: inline-block;
+  text-align: right;
+  margin: 0px;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: “FlipH”;
+}
+
 footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
@@ -774,6 +791,7 @@ ul.social-buttons li a:active {
     border: 0;
     border-radius: 0;
     text-align: center;
+    color: #{{site.data.[[page.lang].portfolio-modal.text-color}};
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -785,7 +803,12 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content p {
+    text-align: justify;
     margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content a {
+  color: #{{site.data.[[page.lang].portfolio-modal.link-color}};
 }
 
 .portfolio-modal .modal-content p.item-intro {
@@ -801,6 +824,9 @@ ul.social-buttons li a:active {
 }
 
 .portfolio-modal .modal-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 30px;
 }
 

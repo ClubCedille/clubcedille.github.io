@@ -1,0 +1,18 @@
+title: Partenaires
+list:
+  ets:
+    name: ÉTS
+    logo: ets-noir-transparent.png
+    website: http://etsmtl.ca/
+  bnc:
+    name: Banque Nationale
+    logo: bnc.jpg
+    website: http://bnc.ca/
+  ml2:
+    name: Maison du Logiciel Libre
+    logo: ml2.jpg
+    website: https://maisonlogiciellibre.org/
+  lamatel:
+    name: Lamatel
+    logo: lamatel.png
+    website: https://www.lamatel.com/en/index.php

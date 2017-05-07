@@ -102,6 +102,20 @@ people:
     pic: villers
     ancien: false
 
+  axdoomer:
+    name: Alexandre-Xavier Labonté-Lamoureux
+    email: alexandrexavier@live.ca
+    position: Membre
+    pic: axdoomer
+    ancien: false
+
+  aubert:
+    name: Aubert Guillemette
+    email: aubertguillemette@gmail.com
+    position: Membre
+    pic: aubert
+    ancien: false
+
 
   nadeau:
     name: Nicolas De Oliveira Nadeau

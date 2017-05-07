@@ -1,0 +1,28 @@
+---
+date: 2016-01-08
+img: miroir.jpg
+thumb: miroir-thumb.png
+alt: Miroir GNU/Linux
+category: TI
+description: "Miroir GNU/Linux : Les distributions Linux à portée de l'ÉTS"
+projectDate: Été 2016
+
+---
+
+## Miroir GNU/Linux
+
+---
+
+![Linux et ses différentes distributions]({{site.baseurl}}/img/portfolio/miroir.jpg)
+
+Vivez maintenant l'expérience Linux à fond à l'ETS!
+
+Dans l'idée d'encourager l'utilisation de Linux à l'ÉTS, nous avons mis sur pied un serveur miroir GNU/Linux dans notre infrastructure. Cela signifie que vous pouvez télécharger et effectuer les mises à jour de nombreuses distributions populaires comme Debian, Ubuntu, Linux Mint et Arch Linux à partir de l'ÉTS à une vitesse phénoménale!
+
+De plus, cette initiative augmente la visibilité de l'ÉTS dans la communauté du logiciel libre, car nos miroirs sont officiels, donc publics, et permettent à tous utilisateurs Linux des environs de se synchroniser à notre serveur.
+
+Vous pouvez accéder directement au [site web du miroir](http://mirror.cedille.club/) pour télécharger et installer votre nouvelle distribution Linux, ou pour changer votre miroir par défaut dans la configuration de votre distribution existante afin de profiter de la rapidité lors des mises à jour (voici comment faire pour [Ubuntu](https://doc.ubuntu-fr.org/software-properties) par exemple).
+
+Nous allons ajouter d'autres distributions dès que notre infrastructure le permettra. Envoyez-nous vos propositions! :)
+
+Le code du projet Miroir GNU/Linux est disponible sur [Github <i class="fa fa-github"></i>](https://github.com/ClubCedille/mirrors)

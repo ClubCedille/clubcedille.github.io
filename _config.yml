@@ -4,7 +4,7 @@ url: http://cedille.etsmtl.ca
 title: Club Cedille
 email: clubcedille@gmail.com
 description: "Club Cedille Description"
-image: "/img/logos/cedille-logo-black.png"
+image: "/img/logos/cedille-logo-new.png"
 
 photoAttribution:
   title: Photo
@@ -26,21 +26,19 @@ color:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: facebook
+  facebook:
+    title: facebook
     url: http://facebook.com/clubcedille
-  - title: github
+  github:
+    title: github
     url: http://github.com/ClubCedille
+  linkedin:
+    title: linkedin
+    url: https://www.linkedin.com/company/cedille
 
-# Postal address (add as many lines as necessary)
-address:
-  - line: Cedille
-  - line: 1100, rue Notre-Dame Ouest
-  - line: Montréal (Québec) H3C 1K3
-  - line: Local A-1726
-  
 defaults:
   -
-    scope: 
+    scope:
       path: "" # All files
     values:
       lang: fr
@@ -48,9 +46,9 @@ defaults:
 # Build settings
 markdown: kramdown
 permalink: pretty
-highlighter: pygments
+highlighter: rouge
 
-exclude: 
+exclude:
   - LICENSE
   - README.md
   - Gemfile

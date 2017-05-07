@@ -4,11 +4,11 @@ whatis:
   - title: Logiciels Libres
     icon: cogs
     description: Notre mission est de démontrer les possibilités qu'offrent les logiciels libres par la réalisation de projets d'ingénierie variés. L'industrie adopte massivement la philosophie du libre (Open Source software & hardware), considérant qu'elle est un moteur favorisant l'accélération de l'innovation.
-    
+
   - title: Systèmes embarqués
     icon: code-fork
     description: Plusieurs de nos projets sont réalisés à l'aide de systèmes embarqués (circuits électroniques et microcontrôleurs). Nous avons utilisé, à titre d'exemple, des technologies ouvertes tels que les plateforme de développement Arduino et Raspberry Pi, pour divers projets.
-    
+
   - title: Transfert de connaissances
     icon: code
-    description: Notre club scientifique intègre aussi une mission éducative. Nous sommes toujours à l'affut de conférences et d'événements qui enrichissent nos connaissances aux alentours des logiciels libres et de technologies telles que le Cloud Computing, le DevOPS, la programmation, etc.
+    description: Notre club scientifique intègre aussi une mission éducative. Nous sommes toujours à l'affut de conférences et d'événements qui enrichissent nos connaissances aux alentours des logiciels libres et de technologies telles que l'infrastructure infonuagique, le DevOps, la programmation, etc.
