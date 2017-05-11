@@ -1,10 +1,8 @@
 #Team names, titles and social links
 title: Membres
 currentMembers: Membres Actuels
-currentDescription: ""
-exMembers: Anciens Membres
-exDescription: "Bien qu'ils ne soient plus membres du club Cedille, nous remercions chaleureusement nos anciens membres pour leurs implication!"
-footer: Et beaucoup plus!
+currentDescription: "Voici notre équipe"
+footer: "Et d'autres sont à venir!"
 
 people:
   batman:
@@ -38,18 +36,6 @@ people:
     pic: michael
     ancien: false
 
-  riku:
-    name: Riku Avelar
-    email: riku.avelar@gmail.com
-    position: Pilgrim Javascript
-    pic: riku
-    social:
-      - title: twitter
-        url: https://twitter.com/RikuAvelar
-      - title: google-plus
-        url: https://plus.google.com/u/0/102156113739688652693
-    ancien: true
-
   bernard:
     name: Bernard Claing
     email: bernard.claing.1@ens.etsmtl.ca
@@ -67,13 +53,6 @@ people:
       - title: google-plus
         url: https://plus.google.com/113514234438391597391
 
-  alexandre:
-    name: Alexandre Viau
-    email:
-    position: Membre
-    pic: alexandre
-    ancien: false
-
   duc:
     name: Van Duc Nguyen
     email:
@@ -81,25 +60,11 @@ people:
     pic: duc
     ancien: false
 
-  antony:
-    name: Anthony Le
-    email: antony.le.truong.tho@gmail.ca
-    position: Membre
-    pic: antony
-    ancien: false
-
   jcbd:
     name: Jean-Pierre Betrand Dorion
     email: jpjrdorion@hotmail.com
     position: Membre
     pic: jpbd
-    ancien: false
-
-  villers:
-    name: Antoine de Villers
-    email: antoinedevillers0307@gmail.com
-    position: Membre
-    pic: villers
     ancien: false
 
   axdoomer:
@@ -117,53 +82,3 @@ people:
     ancien: false
 
 
-  nadeau:
-    name: Nicolas De Oliveira Nadeau
-    email: niconadeau0@gmail.com
-    position: Ancien trésorier
-    pic: nadeau
-    ancien: true
-
-  mosieurlaurin:
-    name: Patrick Laurin
-    email: patrick.laurin.3@ens.etsmtl.ca
-    email: mosieurlaurin@gmail.com
-    position: Ancien capitaine et cofondateur
-    pic: mosieurlaurin
-    ancien: true
-    social:
-      - title: linkedin
-        url: https://ca.linkedin.com/in/laurinpatrick
-
-
-  hanen:
-    name: Hanen Garcia
-    email: hanen.garcia-gamardo.1@etsmtl.net
-    position: Ancien co-capitaine
-    pic: hanen
-    social:
-      - title: google-plus
-        url: https://plus.google.com/+HanenGarciaGamardo
-    ancien: true
-
-  pierre-luc:
-    name: Pierre-Luc Wagner
-    email: pierreluc.wagner@gmail.com
-    position: Ancien co-capitaine
-    pic: pierre-luc
-    ancien: true
-    social:
-      - title: linkedin
-        url: https://www.linkedin.com/pub/pierre-luc-wagner/4a/b9b/42a
-      - title: google-plus
-        url: https://plus.google.com/u/0/+PierreLucWagner
-
-  antoine:
-    name: Antoine Dallaire
-    email: antoine.dallaire@gmail.com
-    position: Membre
-    pic: antoine
-    ancien: true
-    social:
-      - title: google-plus
-        url: https://plus.google.com/u/0/116303569391574948806
