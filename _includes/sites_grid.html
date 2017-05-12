@@ -1,0 +1,23 @@
+<!-- Portfolio Grid Section -->
+    <section id="sites" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{{site.data.[page.lang].sites.title}}</h2>
+                    <h3 class="section-subheading text-muted">{{site.data.[page.lang].sites.description}}</h3>
+                </div>
+            </div>
+            <div class="row">
+              {% for siteObj in site.sites %}
+                <div class="{% if forloop.length < 3 %}col-sm-{{12 | divided_by: forloop.length}}{% else %} col-md-4 col-sm-6 {% endif %} site-item">
+                  <a href="{{siteObj.href}}" target="_blank" rel="noreferrer" class="site-link">
+                    <img src="{{siteObj.baseurl}}/img/sites/{{siteObj.thumb}}" alt="{{siteObj.name}}" class="img-responsive" alt="{{siteObj.alt}}">
+                  </a>
+                  <div class="site-caption">
+                      <a href="{{siteObj.href}}" target="_blank" rel="noreferrer">{{siteObj.name}}</a>
+                    </div>
+                </div>
+              {% endfor %}
+            </div>
+        </div>
+    </section>

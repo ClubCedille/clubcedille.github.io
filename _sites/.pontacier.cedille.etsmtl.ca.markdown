@@ -1,0 +1,6 @@
+---
+thumb: cafetsiere-thumb.jpg
+alt: pontacier.cedille.etsmtl.ca
+href: http://pontacier.cedille.etsmtl.ca
+name: Pont d'acier
+---
