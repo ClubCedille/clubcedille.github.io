@@ -1,6 +1,6 @@
 ---
 thumb: ingenieuse_thumb.jpg
-alt: ingenieuses.cedille.club
-href: http://ingenieuses.cedille.club
+alt: ingenieuses.etsmtl.ca
+href: http://ingenieuses.etsmtl.ca
 name: Ingenieuses
 ---
