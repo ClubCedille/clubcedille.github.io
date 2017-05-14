@@ -81,4 +81,11 @@ people:
     pic: aubert
     ancien: false
 
+  arthur:
+    name: Arthur Gambet
+    email: arthur.gambet.1@ens.etsmtl.ca
+    position: Membre
+    pic: arthur
+    ancien: false
+
 
