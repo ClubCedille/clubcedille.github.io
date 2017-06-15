@@ -217,7 +217,7 @@ section.success {
     transition: all ease .5s;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption:hover {
+#portfolio .portfolio-item .portfolio-link .caption:hover, #sites .site-item .site-link .caption:hover {
     opacity: 1;
 }
 
@@ -232,12 +232,14 @@ section.success {
     color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i, #sites .sites-item .sites-link .caption .caption-content i {
     margin-top: -12px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4,
+#sites .site-item .site-link .caption .caption-content h3,
+#sites .site-item .site-link .caption .caption-content h4{
     margin: 0;
 }
 
@@ -385,7 +387,7 @@ footer .footer-below {
     outline: 0;
 }
 
-.portfolio-modal .modal-content {
+.portfolio-modal .modal-content, .site-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
     border: 0;
@@ -396,20 +398,20 @@ footer .footer-below {
     box-shadow: none;
 }
 
-.portfolio-modal .modal-content h2 {
+.portfolio-modal .modal-content h2, .site-modal .modal-content h2 {
     margin: 0;
     font-size: 3em;
 }
 
-.portfolio-modal .modal-content img {
+.portfolio-modal .modal-content img, .site-modal .modal-content img {
     margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content .item-details {
+.portfolio-modal .modal-content .item-details, .site-modal .modal-content .item-details {
     margin: 30px 0;
 }
 
-.portfolio-modal .close-modal {
+.portfolio-modal .close-modal, .site-modal .close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
@@ -419,11 +421,11 @@ footer .footer-below {
     cursor: pointer;
 }
 
-.portfolio-modal .close-modal:hover {
+.portfolio-modal .close-modal:hover, .site-modal .close-modal:hover  {
     opacity: .3;
 }
 
-.portfolio-modal .close-modal .lr {
+.portfolio-modal .close-modal .lr, .site-modal .close-modal .lr  {
     z-index: 1051;
     width: 1px;
     height: 75px;
@@ -434,7 +436,7 @@ footer .footer-below {
     transform: rotate(45deg);
 }
 
-.portfolio-modal .close-modal .lr .rl {
+.portfolio-modal .close-modal .lr .rl, .site-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;
