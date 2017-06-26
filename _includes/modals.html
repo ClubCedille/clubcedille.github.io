@@ -53,29 +53,9 @@
      <div class="container">
        <div class="row">
          <div class="col-lg-8 col-lg-offset-2">
-           <div class="modal-body">
-             {{project.content}}
-             <ul class="list-inline item-details">
-               {% if project.client %}
-               <li>Client:
-                 <strong>{{ project.client }}
-                 </strong>
-               </li>
-               {% endif %}
-               {% if project.date %}
-               <li>Date:
-                 <strong>{{ project.projectDate }}
-                 </strong>
-               </li>
-               {% endif %}
-               {% if project.category %}
-               <li>Type:
-                 <strong>{{ project.category }}
-                 </strong>
-               </li>
-               {% endif %}
-             </ul>
-             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+           <div class="modal-body" style="margin-top:200px;margin-bottom:200px;">
+            <p>Pour ajouter votre site veuillez écrire à Cedille ÉTS <a href="mailto:clubcedille@gmail.com" style="cursor:pointer;">clubcedille@gmail.com</a></p>
+             <button style="position: absolute; top:10px; left: 100%; margin-left: -200px;" type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
            </div>
          </div>
        </div>
