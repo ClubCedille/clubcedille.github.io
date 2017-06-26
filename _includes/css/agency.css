@@ -381,7 +381,7 @@ section h3.section-subheading {
     opacity: 1;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content, #sites .site-item .site-link .site-hover .site-hover-content {
     position: absolute;
     top: 50%;
     width: 100%;
