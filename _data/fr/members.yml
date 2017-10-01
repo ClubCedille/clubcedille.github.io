@@ -67,6 +67,17 @@ people:
     pic: jpbd
     ancien: false
 
+  mosieurlaurin:
+    name: Patrick Laurin
+    email: patrick.laurin.3@ens.etsmtl.ca
+    email: mosieurlaurin@gmail.com
+    position: Ancien capitaine et cofondateur
+    pic: mosieurlaurin
+    ancien: false	# Pour qu'il soit montré à côté des autres
+    social:
+      - title: linkedin
+        url: https://ca.linkedin.com/in/laurinpatrick
+
   axdoomer:
     name: Alexandre-Xavier Labonté-Lamoureux
     email: alexandrexavier@live.ca
