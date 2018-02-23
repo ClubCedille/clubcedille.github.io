@@ -5,7 +5,7 @@ currentDescription: "Voici notre équipe"
 footer: "Et d'autres sont à venir!"
 
 people:
-  Lydia:
+  lydia:
     name: Lydia Akrour  
     email: 
     position: Capitaine
@@ -21,7 +21,7 @@ people:
     ancien: false
     social:
 
-  Mauricio:
+  mauricio:
     name: Mauricio Figueroa
     email: 
     position: Trésorier
@@ -32,7 +32,8 @@ people:
   batman:
     name: Yamlal Gotame
     email: yamugotame@gmail.com
-    position: Responsable Infra, ancien Capitaine
+    position: Courant:&nbsp;&nbsp;Responsable Infra <br>
+              anciennement:&nbsp;&nbsp;Capitaine
     pic: batman
     ancien: false
     social:
@@ -42,7 +43,8 @@ people:
   samuel:
     name: Samuel Cardinal
     email: samdidos@gmail.com
-    position: membre,ancien Capitaine
+    position: Courant:&nbsp;&nbsp; membre <br>
+              anciennement:&nbsp;&nbsp;Capitaine
     pic: samuel
     ancien: false
     social:
@@ -52,7 +54,8 @@ people:
   michael:
     name: Michael Faille
     email: michael.faille.1@ens.etsmtl.ca
-    position: initiateur, cofondateur et ancien capitaine
+    position: Courant:&nbsp;&nbsp;Architecte DevOps et leader en fiabilité <br>       
+              anciennement:&nbsp;&nbsp;initiateur, cofondateur et capitaine
     pic: michael
     ancien: false
 
