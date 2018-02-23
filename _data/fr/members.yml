@@ -32,7 +32,7 @@ people:
   batman:
     name: Yamlal Gotame
     email: yamugotame@gmail.com
-    position: ancien Capitaine
+    position: Responsable Infra, ancien Capitaine
     pic: batman
     ancien: false
     social:
@@ -42,7 +42,7 @@ people:
   samuel:
     name: Samuel Cardinal
     email: samdidos@gmail.com
-    position: ancien Capitaine
+    position: membre,ancien Capitaine
     pic: samuel
     ancien: false
     social:
