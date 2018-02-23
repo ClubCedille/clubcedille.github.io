@@ -5,34 +5,54 @@ currentDescription: "Voici notre équipe"
 footer: "Et d'autres sont à venir!"
 
 people:
+  Lydia:
+    name: Lydia Akrour  
+    email: 
+    position: Capitaine
+    pic: unknown
+    ancien: false
+    social:
+
+  julien:
+    name: Julien Robitaille  
+    email: 
+    position: Co-Capitaine
+    pic: julien
+    ancien: false
+    social:
+
+  Mauricio:
+    name: Mauricio Figueroa
+    email: 
+    position: Trésorier
+    pic: unknown
+    ancien: false
+    social:
+
   batman:
     name: Yamlal Gotame
     email: yamugotame@gmail.com
-    position: Capitaine
+    position: ancien Capitaine
     pic: batman
     ancien: false
     social:
       - title: linkedin
         url: https://ca.linkedin.com/in/ygotame
-      - title: google-plus
-        url: https://plus.google.com/+YamlalGotame
 
   samuel:
     name: Samuel Cardinal
     email: samdidos@gmail.com
-    position: Co-Capitaine
+    position: ancien Capitaine
     pic: samuel
     ancien: false
     social:
       - title: linkedin
         url: https://ca.linkedin.com/in/samuelcardinal
-      - title: google-plus
-        url: https://plus.google.com/u/0/116303569391574948806
 
   michael:
     name: Michael Faille
     email: michael.faille.1@ens.etsmtl.ca
-    position: Trésorier, initiateur, cofondateur et ancien capitaine
+    position: initiateur, cofondateur et ancien capitaine
     pic: michael
     ancien: false
 
@@ -41,7 +61,7 @@ people:
     email: bernard.claing.1@ens.etsmtl.ca
     position: Membre
     pic: bernard
-    ancien: false
+    ancien: true
 
   charles:
     name: Charles McCauley
@@ -50,8 +70,6 @@ people:
     pic: charles
     ancien: false
     social:
-      - title: google-plus
-        url: https://plus.google.com/113514234438391597391
 
   duc:
     name: Van Duc Nguyen
@@ -65,7 +83,7 @@ people:
     email: jpjrdorion@hotmail.com
     position: Membre
     pic: jpbd
-    ancien: false
+    ancien: true
 
   mosieurlaurin:
     name: Patrick Laurin
@@ -73,7 +91,7 @@ people:
     email: mosieurlaurin@gmail.com
     position: Ancien capitaine et cofondateur
     pic: mosieurlaurin
-    ancien: false	# Pour qu'il soit montré à côté des autres
+    ancien: true	# Pour qu'il soit montré à côté des autres
     social:
       - title: linkedin
         url: https://ca.linkedin.com/in/laurinpatrick
@@ -94,6 +112,7 @@ people:
     position: Membre
     pic: aubert
     ancien: false
+    social:
 
   arthur:
     name: Arthur Gambet
@@ -101,5 +120,65 @@ people:
     position: Membre
     pic: arthur
     ancien: false
+    social:
+
+  xavier:
+    name: Xavier Langlais-Savage
+    email: 
+    position: Membre
+    pic: unknown
+    ancien: false
+    social:
+  
+  alexandre:
+    name: Alexandre Brochu
+    email: 
+    position: Membre
+    pic: unknown
+    ancien: false
+    social:
+
+  javier:
+    name: Javier Beltran 
+    email:
+    position: Membre
+    pic: javier
+    ancien: false
+    social:
+
+  ilyass:
+    name: Ilyass Arbaoui
+    email: 
+    position: Membre
+    pic: unknown
+    ancien: false
+    social:
+
+  jalil:
+    name: Jalil Bengoufa
+    email: jalilbengoufa@gmail.com
+    position: Membre
+    pic: jalil
+    ancien: false
+    social:
+      - title: linkedin
+        url: https://ca.linkedin.com/in/jalil-bengoufa-80a406b7
+
+  raphaël:
+    name: Raphaël Bouchard
+    email: 
+    position: Membre
+    pic: raphaël
+    ancien: false
+    social:
+
+  roch:
+    name: Roch D'amour
+    email: 
+    position: Membre
+    pic: Roch
+    ancien: false
+    social:
+
 
 
