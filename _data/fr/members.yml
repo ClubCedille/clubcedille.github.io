@@ -177,11 +177,11 @@ people:
 
   roch:
     name: Roch D'amour
-    email: 
+    email: roch.damour@gmail.com
     position: Membre
     pic: Roch
     ancien: false
     social:
-
-
+      - title: linkedin
+        url: https://www.linkedin.com/in/694958129/
 
