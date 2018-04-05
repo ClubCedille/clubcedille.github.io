@@ -15,7 +15,7 @@ projectDate: Automne 2017
 
 ![Logo du project Cynergie]({{site.baseurl}}/img/portfolio/cynergie-project.jpg)
 
-Çynergie a pour but de fournir une interface de visualisation en temps réel de la consommation des ressources énergétiques de l'École de technologie supérieure(ETS). Cela peut inclure la consommation d'eau, d'électricité, de gaz, etc. Cela est fait en utilisant plusieurs outils web comme Prometheus ou Grafana.
+Çynergie a pour but de fournir une interface de visualisation en temps réel de la consommation des ressources énergétiques de l'École de technologie supérieure(ETS). Cela peut inclure la consommation d'eau, d'électricité, de gaz, etc. Le project est fait en utilisant plusieurs outils web comme Prometheus ou Grafana.
 
 Le code du projet Cynergie est disponible sur [Github <i class="fa fa-github"></i>](https://github.com/ClubCedille?utf8=%E2%9C%93&q=cynergie)
 
