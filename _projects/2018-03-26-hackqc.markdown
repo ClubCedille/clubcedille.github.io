@@ -5,15 +5,15 @@ thumb: hackqc.png
 alt: HackQC
 category: Événement 
 description: "hackathon sur la conception d'une application en utilisant les données Québec"
-projectDate: hackathon 2018
+projectDate: Mai 2018
 
 ---
 
-## Cynergie
+## HackQC
 
 ---
 
-![Logo du project Cynergie]({{site.baseurl}}/img/portfolio/hackathon.jpg)
+![Logo du project HackQC]({{site.baseurl}}/img/portfolio/hackathon.jpg)
 
 Concevoir une application sur le thème de la communauté verte et l'environnement urbain s'appuyant sur les données ouvertes des municipalités du Québec, disponibles sur le portail Données Québec. En équipe de 4 à 6 personnes ! 
 

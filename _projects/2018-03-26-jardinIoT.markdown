@@ -5,7 +5,7 @@ thumb: jardin.jpg
 alt: JardinIoT
 category: Embarqué
 description: "JardinIoT est un jardin autonome"
-projectDate: Automne 2013
+projectDate: Automne 2016
 
 ---
 
