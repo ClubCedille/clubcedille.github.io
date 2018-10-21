@@ -2,7 +2,7 @@
 Cedille Homepage
 ====================
 
-Cedille Homepage, generated using Jekyll and themed with [Agency jekyll theme ](https://github.com/y7kim/agency-jekyll-theme)
+Cedille Homepage, generated using Jekyll and themed with [Agency jekyll theme](https://github.com/y7kim/agency-jekyll-theme).
 
 # Setup
 
@@ -83,9 +83,9 @@ An eventual migration to a collection (similar to Projects) may be in store for 
 
 ### TODO
 
-Check our [issues page](https://github.com/ClubCedille/clubcedille.github.io/issues) more details
+Check our website's [issues page](https://github.com/ClubCedille/clubcedille.github.io/issues) more details.
 
 =========
 
-For more details, read [documentation](http://jekyllrb.com/)
+For more details about Jekyll, read its [documentation](http://jekyllrb.com/).
 
