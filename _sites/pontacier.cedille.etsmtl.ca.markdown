@@ -2,5 +2,5 @@
 thumb: pontacier_thumb.jpg
 alt: pontacier.etsmtl.ca
 href: http://pontacier.etsmtl.ca
-name: Pont d'acier
+name: PONT D'ACIER
 ---
