@@ -5,10 +5,40 @@ currentDescription: "Voici notre équipe"
 footer: "Et d'autres sont à venir!"
 
 people:
+  roch:
+    name: Roch D'amour
+    email: roch.damour@gmail.com
+    position: Capitaine
+    pic: Roch
+    ancien: false
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/694958129/
+
+  jalil:
+    name: Jalil Bengoufa
+    email: jalilbengoufa@gmail.com
+    position: Co-Capitaine
+    pic: jalil
+    ancien: false
+    social:
+      - title: linkedin
+        url: https://ca.linkedin.com/in/jalil-bengoufa-80a406b7
+
+  axdoomer:
+    name: Alexandre-Xavier Labonté-Lamoureux
+    email: alexandrexavier@live.ca
+    position: Trésorier<br/>Chef du projet JardinIoT<br/>Analyste des besoins et spécifications (DevOps)
+    pic: axdoomer
+    ancien: false
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/alexandre-xavier-labont%C3%A9-lamoureux-35350142/
+
   lydia:
     name: Lydia Akrour  
     email: 
-    position: Capitaine
+    position: Membre<br/>Anciennement:&nbsp;Capitaine
     pic: unknown
     ancien: false
     social:
@@ -16,7 +46,7 @@ people:
   julien:
     name: Julien Robitaille  
     email: 
-    position: Co-Capitaine
+    position: Membre<br/>Anciennement:&nbsp;Co-Capitaine
     pic: julien
     ancien: false
     social:
@@ -24,7 +54,7 @@ people:
   mauricio:
     name: Mauricio Figueroa
     email: 
-    position: Trésorier
+    position: Membre<br/>Anciennement:&nbsp;Trésorier
     pic: unknown
     ancien: false
     social:
@@ -32,8 +62,8 @@ people:
   batman:
     name: Yamlal Gotame
     email: yamugotame@gmail.com
-    position: Courant:&nbsp;&nbsp;Responsable Infra <br>
-              anciennement:&nbsp;&nbsp;Capitaine
+    position: Courant:&nbsp;&nbsp;Responsable Infra <br/>
+              Anciennement:&nbsp;&nbsp;Capitaine
     pic: batman
     ancien: false
     social:
@@ -43,8 +73,8 @@ people:
   samuel:
     name: Samuel Cardinal
     email: samdidos@gmail.com
-    position: Courant:&nbsp;&nbsp; membre <br>
-              anciennement:&nbsp;&nbsp;Capitaine
+    position: Courant:&nbsp;&nbsp; membre <br/>
+              Anciennement:&nbsp;&nbsp;Capitaine
     pic: samuel
     ancien: false
     social:
@@ -54,8 +84,8 @@ people:
   michael:
     name: Michael Faille
     email: michael.faille.1@ens.etsmtl.ca
-    position: Courant:&nbsp;&nbsp;Architecte DevOps et leader en fiabilité <br>       
-              anciennement:&nbsp;&nbsp;initiateur, cofondateur et capitaine
+    position: Courant:&nbsp;&nbsp;Architecte DevOps et leader en fiabilité <br/>
+              Anciennement:&nbsp;&nbsp;initiateur, cofondateur et capitaine
     pic: michael
     ancien: false
 
@@ -66,27 +96,12 @@ people:
     pic: bernard
     ancien: true
 
-  charles:
-    name: Charles McCauley
-    email:
-    position: Membre
-    pic: charles
-    ancien: false
-    social:
-
   duc:
     name: Van Duc Nguyen
     email:
     position: Membre
     pic: duc
     ancien: false
-
-  jcbd:
-    name: Jean-Pierre Betrand Dorion
-    email: jpjrdorion@hotmail.com
-    position: Membre
-    pic: jpbd
-    ancien: true
 
   mosieurlaurin:
     name: Patrick Laurin
@@ -99,24 +114,6 @@ people:
       - title: linkedin
         url: https://ca.linkedin.com/in/laurinpatrick
 
-  axdoomer:
-    name: Alexandre-Xavier Labonté-Lamoureux
-    email: alexandrexavier@live.ca
-    position: Membre
-    pic: axdoomer
-    ancien: false
-    social:
-      - title: linkedin
-        url: https://www.linkedin.com/in/alexandre-xavier-labont%C3%A9-lamoureux-35350142/
-
-  aubert:
-    name: Aubert Guillemette
-    email: aubertguillemette@gmail.com
-    position: Membre
-    pic: aubert
-    ancien: false
-    social:
-
   arthur:
     name: Arthur Gambet
     email: arthur.gambet.1@ens.etsmtl.ca
@@ -127,14 +124,6 @@ people:
 
   xavier:
     name: Xavier Langlais-Savage
-    email: 
-    position: Membre
-    pic: unknown
-    ancien: false
-    social:
-  
-  alexandre:
-    name: Alexandre Brochu
     email: 
     position: Membre
     pic: unknown
@@ -157,16 +146,6 @@ people:
     ancien: false
     social:
 
-  jalil:
-    name: Jalil Bengoufa
-    email: jalilbengoufa@gmail.com
-    position: Membre
-    pic: jalil
-    ancien: false
-    social:
-      - title: linkedin
-        url: https://ca.linkedin.com/in/jalil-bengoufa-80a406b7
-
   raphaël:
     name: Raphaël Bouchard
     email: 
@@ -174,14 +153,4 @@ people:
     pic: raphaël
     ancien: false
     social:
-
-  roch:
-    name: Roch D'amour
-    email: roch.damour@gmail.com
-    position: Membre
-    pic: Roch
-    ancien: false
-    social:
-      - title: linkedin
-        url: https://www.linkedin.com/in/694958129/
 
