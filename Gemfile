@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
-gem "jekyll"
+gem "jekyll", ">= 3.6.3"
+gem "ffi", ">= 1.9.24"
 gem "html-proofer"
 gem "celluloid-io", '>=0.16.1'
