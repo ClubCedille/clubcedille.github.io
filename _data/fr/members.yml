@@ -70,17 +70,6 @@ people:
       - title: linkedin
         url: https://ca.linkedin.com/in/ygotame
 
-  samuel:
-    name: Samuel Cardinal
-    email: samdidos@gmail.com
-    position: Courant:&nbsp;&nbsp; membre <br/>
-              Anciennement:&nbsp;&nbsp;Capitaine
-    pic: samuel
-    ancien: false
-    social:
-      - title: linkedin
-        url: https://ca.linkedin.com/in/samuelcardinal
-
   michael:
     name: Michael Faille
     email: michael.faille.1@ens.etsmtl.ca
@@ -89,38 +78,12 @@ people:
     pic: michael
     ancien: false
 
-  bernard:
-    name: Bernard Claing
-    email: bernard.claing.1@ens.etsmtl.ca
-    position: Membre
-    pic: bernard
-    ancien: true
-
   duc:
     name: Van Duc Nguyen
     email:
     position: Membre
     pic: duc
     ancien: false
-
-  mosieurlaurin:
-    name: Patrick Laurin
-    email: patrick.laurin.3@ens.etsmtl.ca
-    email: mosieurlaurin@gmail.com
-    position: Ancien capitaine et cofondateur
-    pic: mosieurlaurin
-    ancien: true	# Pour qu'il soit montré à côté des autres
-    social:
-      - title: linkedin
-        url: https://ca.linkedin.com/in/laurinpatrick
-
-  arthur:
-    name: Arthur Gambet
-    email: arthur.gambet.1@ens.etsmtl.ca
-    position: Membre
-    pic: arthur
-    ancien: false
-    social:
 
   xavier:
     name: Xavier Langlais-Savage
@@ -154,3 +117,30 @@ people:
     ancien: false
     social:
 
+  cguertz:
+    name: Charles Guertin
+    email: charlesguertin@live.ca
+    position: 'Courant: Développeur Full Stack'
+    pic: cguertz
+    ancien: false
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/charles-guertin-495b6520/
+
+  bernard:
+    name: Bernard Claing
+    email: bernard.claing.1@ens.etsmtl.ca
+    position: Membre
+    pic: bernard
+    ancien: true
+
+  mosieurlaurin:
+    name: Patrick Laurin
+    email: patrick.laurin.3@ens.etsmtl.ca
+    email: mosieurlaurin@gmail.com
+    position: Ancien capitaine et cofondateur
+    pic: mosieurlaurin
+    ancien: true	# Pour qu'il soit montré à côté des autres
+    social:
+      - title: linkedin
+        url: https://ca.linkedin.com/in/laurinpatrick
