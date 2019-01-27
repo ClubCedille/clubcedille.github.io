@@ -33,13 +33,17 @@
 		<form action="https://formspree.io/cedille@ens.etsmtl.ca" method="POST" onsubmit="validateContact()" id="contact-form" name="contact-form" class="col-xs-12 bg-light-orange" >
 			<div>
 				<input type="hidden" name="source" value="contact-form"/>
+				<h4>Demande d'information</h4>
 
-				<label>Nom *</label>
-				<input name="nom" type="text" placeholder={{site.data.[page.lang].contact.required}} required/>
+				<label>Nom Complet *</label>
+				<input name="nom" type="text" placeholder={{site.data.[page.lang].contact.required}} required class="form-control"/>
+				<br>
 				<label>Courriel *</label>
-				<input name="_replyto" type="email" placeholder={{site.data.[page.lang].contact.required}} required/>
+				<input name="_replyto" type="email" placeholder={{site.data.[page.lang].contact.required}} required class="form-control"/>
+				<br>
 				<label>Message *</label>
-				<textarea name="message" placeholder={{site.data.[page.lang].contact.required}} required></textarea>
+				<textarea name="message" placeholder={{site.data.[page.lang].contact.required}} required class="form-control"></textarea>
+				<br>
 
 				<p><button type="submit"  class="btn btn-primary">Soumettre</button></p>
 			</div>
@@ -51,16 +55,19 @@
 				<h4>Demande d'adhésion</h4>
 				<p>
 					<label>Prénom *</label>
-					<input name="prenom" type='text' placeholder={{site.data.[page.lang].contact.required}} required/>
+					<input name="prenom" type='text' placeholder={{site.data.[page.lang].contact.required}} required class="form-control"/>
+					<br>
 					<label>Nom *</label>
-					<input name="nom" type='text' placeholder={{site.data.[page.lang].contact.required}} required/>
+					<input name="nom" type='text' placeholder={{site.data.[page.lang].contact.required}} required class="form-control"/>
+					<br>
 					<label>Courriel *</label>
-					<input name="_replyto" type='email' placeholder={{site.data.[page.lang].contact.required}} required/>
+					<input name="_replyto" type='email' placeholder={{site.data.[page.lang].contact.required}} required class="form-control"/>
+					<br>
 				</p>
 
 				<h5>Formation *</h5>
 				<p>
-					<select id="selectFormation" onchange="addOtherFormation()" name="formation" required>
+					<select id="selectFormation" onchange="addOtherFormation()" name="formation" required  class="form-control">
 						<option disabled selected value>-- Choisissez une formation --</option>
 						<option value="bacc"/>Baccalauréat</option>
 						<option value="master"/>Maîtrise</option>
@@ -71,10 +78,9 @@
 			</p>
 			<p id="otherFormation" hidden>Autre * : <input id="otherFormationInput" type="text" name="autreFormation"/></p>
 			<p>
-
 				<h5>Programme d'étude *</h5>
 				<p>
-					<select id="selectProgram" onchange="addOtherProgram()" name="programme" required>
+					<select id="selectProgram" onchange="addOtherProgram()" name="programme" required class="form-control">
 						<option disabled selected value>-- Choisissez un programme --</option>
 						<option value="gti"/>Génie des technologies de l'information</option>
 						<option value="ele"/>Génie électrique</option>
@@ -89,9 +95,10 @@
 				<p id="otherProgram" hidden>Autre * : <input id="otherProgramInput" type="text" name="autreProgramme"/></p>
 				<p>
 					<label>Expérience *</label>
-					<textarea name="experience" placeholder={{site.data.[page.lang].contact.required}} required></textarea>
+					<textarea name="experience" placeholder={{site.data.[page.lang].contact.required}} required class="form-control"></textarea>
+					<br/>
 					<label>Intérêts *</label>
-					<textarea name="interets" placeholder={{site.data.[page.lang].contact.required}} required></textarea>
+					<textarea name="interets" placeholder={{site.data.[page.lang].contact.required}} required class="form-control"></textarea>
 				</p>
 				<p>
 					<br/><input id="adhesionCheckbox" type="checkbox" onchange="toggleSubmitDisabled()" name="conscentement" id="conscentement"/> Je désire adhérer au club *
