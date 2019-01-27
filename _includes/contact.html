@@ -35,7 +35,7 @@
 				<input type="hidden" name="source" value="contact-form"/>
 				<h4>Demande d'information</h4>
 
-				<label>Nom *</label>
+				<label>Nom Complet *</label>
 				<input name="nom" type="text" placeholder={{site.data.[page.lang].contact.required}} required class="form-control"/>
 				<br>
 				<label>Courriel *</label>
@@ -56,10 +56,13 @@
 				<p>
 					<label>Prénom *</label>
 					<input name="prenom" type='text' placeholder={{site.data.[page.lang].contact.required}} required class="form-control"/>
-					<label>Nom Complet *</label>
+					<br>
+					<label>Nom *</label>
 					<input name="nom" type='text' placeholder={{site.data.[page.lang].contact.required}} required class="form-control"/>
+					<br>
 					<label>Courriel *</label>
 					<input name="_replyto" type='email' placeholder={{site.data.[page.lang].contact.required}} required class="form-control"/>
+					<br>
 				</p>
 
 				<h5>Formation *</h5>
@@ -75,7 +78,6 @@
 			</p>
 			<p id="otherFormation" hidden>Autre * : <input id="otherFormationInput" type="text" name="autreFormation"/></p>
 			<p>
-
 				<h5>Programme d'étude *</h5>
 				<p>
 					<select id="selectProgram" onchange="addOtherProgram()" name="programme" required class="form-control">
@@ -94,6 +96,7 @@
 				<p>
 					<label>Expérience *</label>
 					<textarea name="experience" placeholder={{site.data.[page.lang].contact.required}} required class="form-control"></textarea>
+					<br/>
 					<label>Intérêts *</label>
 					<textarea name="interets" placeholder={{site.data.[page.lang].contact.required}} required class="form-control"></textarea>
 				</p>
