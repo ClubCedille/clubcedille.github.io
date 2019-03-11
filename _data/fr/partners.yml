@@ -8,3 +8,7 @@ list:
     name: Banque Nationale
     logo: bnc.jpg
     website: http://bnc.ca/
+  gv:
+    name: Grass Valley
+    logo: grassvalley.png
+    website: https://grassvalley.com/
