@@ -3,12 +3,12 @@ list:
   ets:
     name: ÉTS
     logo: ets-noir-transparent.png
-    website: http://etsmtl.ca/
+    website: https://www.etsmtl.ca/
   bnc:
     name: Banque Nationale
     logo: bnc.jpg
-    website: http://bnc.ca/
+    website: https://www.bnc.ca/
   gv:
     name: Grass Valley
     logo: grassvalley.png
-    website: https://grassvalley.com/
+    website: https://www.grassvalley.com/
