@@ -1,0 +1,88 @@
+#Team names, titles and social links
+title: Anciens membres
+currentMembers: Anciens Membres
+currentDescription: "Les fondations du club"
+
+people:
+  lydia:
+    name: Lydia Akrour  
+    email: 
+    position: Ancien capitaine
+    pic: unknown
+    social:
+
+  mauricio:
+    name: Mauricio Figueroa
+    email: 
+    position: Ancien trésorier
+    pic: unknown
+    social:
+
+  batman:
+    name: Yamlal Gotame
+    email: yamugotame@gmail.com
+    position: Ancien capitaine
+    pic: batman
+    social:
+      - title: linkedin
+        url: https://ca.linkedin.com/in/ygotame
+
+  duc:
+    name: Van Duc Nguyen
+    email:
+    position: Membre
+    pic: duc
+
+  xavier:
+    name: Xavier Langlais-Savage
+    email: 
+    position: Membre
+    pic: unknown
+    social:
+
+  javier:
+    name: Javier Beltran 
+    email:
+    position: Membre
+    pic: javier
+    social:
+
+  ilyass:
+    name: Ilyass Arbaoui
+    email: 
+    position: Membre
+    pic: unknown
+    social:
+
+  bernard:
+    name: Bernard Claing
+    email: bernard.claing.1@ens.etsmtl.ca
+    position: Membre
+    pic: bernard
+
+  mosieurlaurin:
+    name: Patrick Laurin
+    email: patrick.laurin.3@ens.etsmtl.ca
+    email: mosieurlaurin@gmail.com
+    position: Ancien capitaine et cofondateur
+    pic: mosieurlaurin
+    social:
+      - title: linkedin
+        url: https://ca.linkedin.com/in/laurinpatrick
+  
+  arthur:
+    name: Arthur Gambet
+    email: arthur.gambet.1@ens.etsmtl.ca
+    position: Membre
+    pic: arthur
+    social:
+  
+  samuel:
+    name: Samuel Cardinal
+    email: samdidos@gmail.com
+    position: Ancien capitaine
+    pic: samuel
+    social:
+      - title: linkedin
+        url: https://ca.linkedin.com/in/samuelcardinal
+    
