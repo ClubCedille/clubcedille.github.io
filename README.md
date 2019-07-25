@@ -11,6 +11,11 @@ Requirements:
   * Ruby (`apt install ruby`)
   * Nodejs (`apt install nodejs`)
 
+or..
+
+  * Docker
+  * Docker-compose
+
 ### Install on Linux
 
 Notice: The commands shown here are used as examples of what to do for each steps on Ubuntu. They may differ on other Linux distributions. 
@@ -29,13 +34,10 @@ Notice: The commands shown here are used as examples of what to do for each step
  - You can also change the host or ip by adding `--host hostOrIp`
  - Example :  ` bundle exec jekyll serve --host 192.168.1.10 --port 4242 `
 
-### Install with Docker
+### Using Docker
 
-1. install your distribution's Docker package.
-2. Use `git clone` to clone the repo: `git clone https://github.com/ClubCedille/clubcedille.github.io.git`
-3. Move to the project's directory: `cd clubcedille.github.io/`
-4. Run  ` sudo docker build -t clubcedille . `
-5. Start the container with ` sudo docker run -it -p 4000:4000 clubcedille `
+1. Move to the project's directory: `cd clubcedille.github.io/`
+2. Run  `(sudo) docker-compose up` 
 
 # How to use
 

@@ -2,7 +2,7 @@
 title: Membres
 currentMembers: Membres Actuels
 currentDescription: "Voici notre équipe"
-footer: "Et d'autres sont à venir!"
+footer: ""
 
 people:
   roch:
@@ -10,7 +10,6 @@ people:
     email: roch.damour@gmail.com
     position: Capitaine
     pic: Roch
-    ancien: false
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/694958129/
@@ -20,7 +19,6 @@ people:
     email: jalilbengoufa@gmail.com
     position: Co-Capitaine
     pic: jalil
-    ancien: false
     social:
       - title: linkedin
         url: https://ca.linkedin.com/in/jalil-bengoufa-80a406b7
@@ -30,45 +28,16 @@ people:
     email: alexandrexavier@live.ca
     position: Trésorier<br/>Analyste des besoins et spécifications (DevOps)
     pic: axdoomer
-    ancien: false
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/alexandre-xavier-labont%C3%A9-lamoureux-35350142/
-
-  lydia:
-    name: Lydia Akrour  
-    email: 
-    position: Membre<br/>Anciennement:&nbsp;Capitaine
-    pic: unknown
-    ancien: false
-    social:
 
   julien:
     name: Julien Robitaille  
     email: 
     position: Membre<br/>Anciennement:&nbsp;Co-Capitaine
     pic: julien
-    ancien: false
     social:
-
-  mauricio:
-    name: Mauricio Figueroa
-    email: 
-    position: Membre<br/>Anciennement:&nbsp;Trésorier
-    pic: unknown
-    ancien: false
-    social:
-
-  batman:
-    name: Yamlal Gotame
-    email: yamugotame@gmail.com
-    position: Courant:&nbsp;&nbsp;Responsable Infra <br/>
-              Anciennement:&nbsp;&nbsp;Capitaine
-    pic: batman
-    ancien: false
-    social:
-      - title: linkedin
-        url: https://ca.linkedin.com/in/ygotame
 
   michael:
     name: Michael Faille
@@ -76,45 +45,12 @@ people:
     position: Courant:&nbsp;&nbsp;Architecte DevOps et leader en fiabilité <br/>
               Anciennement:&nbsp;&nbsp;initiateur, cofondateur et capitaine
     pic: michael
-    ancien: false
-
-  duc:
-    name: Van Duc Nguyen
-    email:
-    position: Membre
-    pic: duc
-    ancien: false
-
-  xavier:
-    name: Xavier Langlais-Savage
-    email: 
-    position: Membre
-    pic: unknown
-    ancien: false
-    social:
-
-  javier:
-    name: Javier Beltran 
-    email:
-    position: Membre
-    pic: javier
-    ancien: false
-    social:
-
-  ilyass:
-    name: Ilyass Arbaoui
-    email: 
-    position: Membre
-    pic: unknown
-    ancien: false
-    social:
 
   raphaël:
     name: Raphaël Bouchard
     email: 
     position: Membre
     pic: raphaël
-    ancien: false
     social:
 
   cguertz:
@@ -122,25 +58,6 @@ people:
     email: charlesguertin@live.ca
     position: 'Courant: Développeur Full Stack'
     pic: cguertz
-    ancien: false
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/charles-guertin-495b6520/
-
-  bernard:
-    name: Bernard Claing
-    email: bernard.claing.1@ens.etsmtl.ca
-    position: Membre
-    pic: bernard
-    ancien: true
-
-  mosieurlaurin:
-    name: Patrick Laurin
-    email: patrick.laurin.3@ens.etsmtl.ca
-    email: mosieurlaurin@gmail.com
-    position: Ancien capitaine et cofondateur
-    pic: mosieurlaurin
-    ancien: true	# Pour qu'il soit montré à côté des autres
-    social:
-      - title: linkedin
-        url: https://ca.linkedin.com/in/laurinpatrick
