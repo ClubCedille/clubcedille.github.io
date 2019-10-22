@@ -5,23 +5,21 @@ currentDescription: "Voici notre équipe"
 footer: ""
 
 people:
-  roch:
-    name: Roch D'amour
-    email: roch.damour@gmail.com
+  cguertz:
+    name: Charles Guertin
+    email: charlesguertin@live.ca
     position: Capitaine
-    pic: Roch
+    pic: cguertz
     social:
       - title: linkedin
-        url: https://www.linkedin.com/in/694958129/
+        url: https://www.linkedin.com/in/charles-guertin-495b6520/
 
-  jalil:
-    name: Jalil Bengoufa
-    email: jalilbengoufa@gmail.com
+  nberbiche:
+    name: Nicolas Berbiche
+    email: nic.berbiche@gmail.com
     position: Co-Capitaine
-    pic: jalil
+    pic: nberbiche
     social:
-      - title: linkedin
-        url: https://ca.linkedin.com/in/jalil-bengoufa-80a406b7
 
   axdoomer:
     name: Alexandre-Xavier Labonté-Lamoureux
@@ -32,12 +30,32 @@ people:
       - title: linkedin
         url: https://www.linkedin.com/in/alexandre-xavier-labont%C3%A9-lamoureux-35350142/
 
+  roch:
+    name: Roch D'amour
+    email: roch.damour@gmail.com
+    position: Membre et Mentor<br/>Anciennement:&nbsp;Capitaine
+    pic: Roch
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/694958129/
+
+  jalil:
+    name: Jalil Bengoufa
+    email: jalilbengoufa@gmail.com
+    position: Membre<br/>Anciennement:&nbsp;Co-Capitaine
+    pic: jalil
+    social:
+      - title: linkedin
+        url: https://ca.linkedin.com/in/jalil-bengoufa-80a406b7
+
   julien:
     name: Julien Robitaille  
     email: 
     position: Membre<br/>Anciennement:&nbsp;Co-Capitaine
     pic: julien
     social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/robitaillej/
 
   michael:
     name: Michael Faille
@@ -52,12 +70,3 @@ people:
     position: Membre
     pic: raphaël
     social:
-
-  cguertz:
-    name: Charles Guertin
-    email: charlesguertin@live.ca
-    position: 'Architecte DevOps'
-    pic: cguertz
-    social:
-      - title: linkedin
-        url: https://www.linkedin.com/in/charles-guertin-495b6520/
