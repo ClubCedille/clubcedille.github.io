@@ -13,6 +13,8 @@ people:
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/charles-guertin-495b6520/
+      - title: github
+        url: https://github.com/cguertin14/
 
   nberbiche:
     name: Nicolas Berbiche
@@ -20,6 +22,8 @@ people:
     position: Co-Capitaine
     pic: nberbiche
     social:
+      - title: github
+        url: https://github.com/berbiche
 
   axdoomer:
     name: Alexandre-Xavier Labonté-Lamoureux
@@ -29,6 +33,8 @@ people:
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/alexandre-xavier-labont%C3%A9-lamoureux-35350142/
+      - title: github
+        url: https://github.com/axdoomer
 
   roch:
     name: Roch D'amour
@@ -38,6 +44,8 @@ people:
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/694958129/
+      - title: github
+        url: https://github.com/notarock
 
   jalil:
     name: Jalil Bengoufa
@@ -47,15 +55,19 @@ people:
     social:
       - title: linkedin
         url: https://ca.linkedin.com/in/jalil-bengoufa-80a406b7
+      - title: github
+        url: https://github.com/jalilbengoufa
 
   julien:
-    name: Julien Robitaille  
-    email: 
+    name: Julien Robitaille
+    email:
     position: Membre<br/>Anciennement:&nbsp;Co-Capitaine
     pic: julien
     social:
       - title: linkedin
         url: https://www.linkedin.com/in/robitaillej/
+      - title: github
+        url: https://www.github.com/JulienRobitaille
 
   michael:
     name: Michael Faille
@@ -63,10 +75,15 @@ people:
     position: Courant:&nbsp;&nbsp;Architecte DevOps et leader en fiabilité <br/>
               Anciennement:&nbsp;&nbsp;initiateur, cofondateur et capitaine
     pic: michael
+    social:
+      - title: github
+        url: https://www.github.com/mikefaille
 
   raphaël:
     name: Raphaël Bouchard
-    email: 
+    email:
     position: Membre
     pic: raphaël
     social:
+      - title: github
+        url: https://www.github.com/waldo121
