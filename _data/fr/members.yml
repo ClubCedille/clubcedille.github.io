@@ -8,7 +8,7 @@ people:
   cguertz:
     name: Charles Guertin
     email: charlesguertin@live.ca
-    position: Capitaine
+    position: Président
     pic: cguertz
     social:
       - title: linkedin
@@ -19,7 +19,7 @@ people:
   nberbiche:
     name: Nicolas Berbiche
     email: nic.berbiche@gmail.com
-    position: Co-Capitaine
+    position: Vice-Président
     pic: nberbiche
     social:
       - title: github
@@ -39,7 +39,7 @@ people:
   roch:
     name: Roch D'amour
     email: roch.damour@gmail.com
-    position: Membre et Mentor<br/>Anciennement:&nbsp;Capitaine
+    position: Membre et Mentor<br/>Anciennement:&nbsp;Président
     pic: Roch
     social:
       - title: linkedin
@@ -50,7 +50,7 @@ people:
   jalil:
     name: Jalil Bengoufa
     email: jalilbengoufa@gmail.com
-    position: Membre<br/>Anciennement:&nbsp;Co-Capitaine
+    position: Membre<br/>Anciennement:&nbsp;Vice-Président
     pic: jalil
     social:
       - title: linkedin
