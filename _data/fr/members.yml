@@ -22,6 +22,8 @@ people:
     position: Co-Capitaine
     pic: nberbiche
     social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/nicolas-berbiche/
       - title: github
         url: https://github.com/berbiche
 
