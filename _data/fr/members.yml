@@ -89,3 +89,24 @@ people:
     social:
       - title: github
         url: https://www.github.com/waldo121
+
+  guyllaume:
+    name: Guyllaume Rousseau
+    email:
+    position: Membre
+    pic: unknown
+    social:
+
+  vincent:
+    name: Vincent Perrier
+    email:
+    position: Membre
+    pic: unknown
+    social:
+
+  tristan:
+    name: Tristan Gosselin-Hane
+    email:
+    position: Membre
+    pic: unknown
+    social:
