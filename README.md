@@ -1,8 +1,8 @@
 [![Stories in Ready](https://badge.waffle.io/ClubCedille/clubcedille.github.io.png?label=ready&title=Ready)](https://waffle.io/ClubCedille/clubcedille.github.io)
-Cedille Homepage
+CEDILLE Homepage
 ====================
 
-Cedille Homepage, generated using Jekyll and themed with [Agency jekyll theme](https://github.com/y7kim/agency-jekyll-theme).
+CEDILLE Homepage, generated using Jekyll and themed with [Agency jekyll theme](https://github.com/y7kim/agency-jekyll-theme).
 
 # Setup
 
