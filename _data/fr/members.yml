@@ -60,27 +60,6 @@ people:
       - title: github
         url: https://github.com/jalilbengoufa
 
-  julien:
-    name: Julien Robitaille
-    email:
-    position: Membre<br/>Anciennement:&nbsp;Co-Capitaine
-    pic: julien
-    social:
-      - title: linkedin
-        url: https://www.linkedin.com/in/robitaillej/
-      - title: github
-        url: https://www.github.com/JulienRobitaille
-
-  michael:
-    name: Michael Faille
-    email: michael.faille.1@ens.etsmtl.ca
-    position: Courant:&nbsp;&nbsp;Architecte DevOps et leader en fiabilité <br/>
-              Anciennement:&nbsp;&nbsp;initiateur, cofondateur et capitaine
-    pic: michael
-    social:
-      - title: github
-        url: https://www.github.com/mikefaille
-
   raphaël:
     name: Raphaël Bouchard
     email:

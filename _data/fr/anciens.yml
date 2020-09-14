@@ -85,4 +85,24 @@ people:
     social:
       - title: linkedin
         url: https://ca.linkedin.com/in/samuelcardinal
-    
+
+  julien:
+    name: Julien Robitaille
+    email:
+    position: Ancien Co-Capitaine
+    pic: julien
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/robitaillej/
+      - title: github
+        url: https://www.github.com/JulienRobitaille
+
+  michael:
+    name: Michael Faille
+    email: michael.faille.1@ens.etsmtl.ca
+    position: Architecte DevOps et leader en fiabilité<br/>
+              Anciennement:&nbsp;&nbsp;initiateur, cofondateur et capitaine
+    pic: michael
+    social:
+      - title: github
+        url: https://www.github.com/mikefaille
