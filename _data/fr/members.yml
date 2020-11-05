@@ -27,10 +27,19 @@ people:
       - title: github
         url: https://github.com/berbiche
 
+  antoineabel:
+    name: Antoine Abel
+    email: abel.antoine999@gmail.com
+    position: Trésorier
+    pic: unknown
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/antoine-abel-992732162/
+
   axdoomer:
     name: Alexandre-Xavier Labonté-Lamoureux
     email: alexandrexavier@live.ca
-    position: Trésorier
+    position: Membre et Mentor<br/>Anciennement:&nbsp;Trésorier&nbsp;et&nbsp;chef&nbsp;de&nbsp;projet
     pic: axdoomer
     social:
       - title: linkedin
