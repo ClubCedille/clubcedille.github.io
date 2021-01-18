@@ -39,11 +39,11 @@ people:
   roch:
     name: Roch D'amour
     email: roch.damour@gmail.com
-    position: Membre et Mentor<br/>Anciennement:&nbsp;Capitaine
+    position: Membre<br/>Anciennement:&nbsp;Capitaine
     pic: Roch
     social:
       - title: linkedin
-        url: https://www.linkedin.com/in/694958129/
+        url: https://www.linkedin.com/in/notarock/
       - title: github
         url: https://github.com/notarock
 
