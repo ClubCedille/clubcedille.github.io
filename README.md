@@ -1,4 +1,3 @@
-[![Stories in Ready](https://badge.waffle.io/ClubCedille/clubcedille.github.io.png?label=ready&title=Ready)](https://waffle.io/ClubCedille/clubcedille.github.io)
 CEDILLE Homepage
 ====================
 
