@@ -69,24 +69,8 @@ people:
       - title: github
         url: https://github.com/jalilbengoufa
 
-  raphaël:
-    name: Raphaël Bouchard
-    email:
-    position: Membre
-    pic: raphaël
-    social:
-      - title: github
-        url: https://www.github.com/waldo121
-
   guyllaume:
     name: Guyllaume Rousseau
-    email:
-    position: Membre
-    pic: unknown
-    social:
-
-  vincent:
-    name: Vincent Perrier
     email:
     position: Membre
     pic: unknown

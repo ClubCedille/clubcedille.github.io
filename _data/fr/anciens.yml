@@ -106,3 +106,19 @@ people:
     social:
       - title: github
         url: https://www.github.com/mikefaille
+
+  raphaël:
+    name: Raphaël Bouchard
+    email:
+    position: Membre
+    pic: raphaël
+    social:
+      - title: github
+        url: https://www.github.com/waldo121
+
+  vincent:
+    name: Vincent Perrier
+    email:
+    position: Membre
+    pic: unknown
+    social:
