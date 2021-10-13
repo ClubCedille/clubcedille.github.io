@@ -82,3 +82,16 @@ people:
     position: Membre
     pic: unknown
     social:
+
+  slav:
+    name: Vyacheslav Gorbov
+    email: vyacheslav.gorbov.1@ens.etsmtl.ca
+    position: Membre
+    pic: unknown
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/vgorbov
+      - title: github
+        url: https://github.com/vyacheslav31
+
+
