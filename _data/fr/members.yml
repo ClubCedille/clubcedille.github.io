@@ -104,3 +104,10 @@ people:
         url: https://ca.linkedin.com/in/thomas-cardin-349056185
       - title: github
         url: https://github.com/ThomasCardin
+
+DanielKahn:
+    name: Daniel Kahn
+    email: daniel.kahn.1.ens.etsmtl.ca
+    position: Membre
+    pic: unknown
+    social:
