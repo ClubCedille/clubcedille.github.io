@@ -94,4 +94,13 @@ people:
       - title: github
         url: https://github.com/vyacheslav31
 
-
+  ThomasCardin:
+    name: Thomas Cardin
+    email: thomas.cardin.software@gmail.com
+    position: Membre
+    pic: unknown
+    social:
+      - title: linkedin
+        url: https://ca.linkedin.com/in/thomas-cardin-349056185
+      - title: github
+        url: https://github.com/ThomasCardin
