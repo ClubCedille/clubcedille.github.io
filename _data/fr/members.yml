@@ -5,6 +5,17 @@ currentDescription: "Voici notre équipe"
 footer: ""
 
 people:
+  SonOfLope:
+    name: Jonathan Lopez
+    email: ...
+    position: Capitaine
+    pic: unknown
+    social:
+      - title: linkedin
+        url: ...
+      - title: github
+        url: ...
+
   cguertz:
     name: Charles Guertin
     email: charlesguertin@live.ca
@@ -97,7 +108,7 @@ people:
   ThomasCardin:
     name: Thomas Cardin
     email: thomas.cardin.software@gmail.com
-    position: Membre
+    position: Co-Capitaine
     pic: unknown
     social:
       - title: linkedin
