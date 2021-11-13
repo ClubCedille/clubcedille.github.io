@@ -5,16 +5,27 @@ currentDescription: "Voici notre équipe"
 footer: ""
 
 people:
-  cguertz:
-    name: Charles Guertin
-    email: charlesguertin@live.ca
+  SonOfLope:
+    name: Jonathan Lopez
+    email: jonathanlopez@hotmail.ca
     position: Capitaine
-    pic: cguertz
+    pic: jolopez
     social:
       - title: linkedin
-        url: https://www.linkedin.com/in/charles-guertin-495b6520/
+        url: https://www.linkedin.com/in/jonathan-lopez-888996204/
       - title: github
-        url: https://github.com/cguertin14/
+        url: https://github.com/SonOfLope
+
+  ThomasCardin:
+    name: Thomas Cardin
+    email: thomas.cardin.software@gmail.com
+    position: Co-Capitaine
+    pic: tcardin
+    social:
+      - title: linkedin
+        url: https://ca.linkedin.com/in/thomas-cardin-349056185
+      - title: github
+        url: https://github.com/ThomasCardin
 
   nberbiche:
     name: Nicolas Berbiche
@@ -26,6 +37,17 @@ people:
         url: https://www.linkedin.com/in/nicolas-berbiche/
       - title: github
         url: https://github.com/berbiche
+
+  cguertz:
+    name: Charles Guertin
+    email: charlesguertin@live.ca
+    position: Capitaine
+    pic: cguertz
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/charles-guertin-495b6520/
+      - title: github
+        url: https://github.com/cguertin14/
 
   antoineabel:
     name: Antoine Abel
@@ -93,17 +115,6 @@ people:
         url: https://www.linkedin.com/in/vgorbov
       - title: github
         url: https://github.com/vyacheslav31
-
-  ThomasCardin:
-    name: Thomas Cardin
-    email: thomas.cardin.software@gmail.com
-    position: Membre
-    pic: unknown
-    social:
-      - title: linkedin
-        url: https://ca.linkedin.com/in/thomas-cardin-349056185
-      - title: github
-        url: https://github.com/ThomasCardin
 
 DanielKahn:
     name: Daniel Kahn
