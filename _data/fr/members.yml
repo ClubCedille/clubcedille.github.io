@@ -41,9 +41,7 @@ people:
   cguertz:
     name: Charles Guertin
     email: charlesguertin@live.ca
-    position: |
-      Chef d'équipe SRE
-      Ancien Capitaine 2019-2021
+    position: Chef d'équipe SRE<br/>Ancien Capitaine 2019-2021
     pic: cguertz
     social:
       - title: linkedin
