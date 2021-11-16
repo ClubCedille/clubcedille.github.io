@@ -122,3 +122,14 @@ DanielKahn:
     position: Membre
     pic: unknown
     social:
+
+  EdvinHonda:
+    name: Edvin Honda
+    email: edvin_honda@hotmail.com
+    position: Membre
+    pic: unknown 
+    social: 
+      - title: linkedin
+        url: https://www.linkedin.com/in/edvin-honda-00b941220/
+      - title: github
+        url: https://github.com/EdvinHonda  
