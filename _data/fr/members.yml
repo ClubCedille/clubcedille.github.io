@@ -144,3 +144,12 @@ people:
         url: https://www.linkedin.com/in/edvin-honda-00b941220/
       - title: github
         url: https://github.com/EdvinHonda  
+
+  BryanNdjeutcha:
+    name: Bryan Ndjeutcha
+    email: ndjeutcha@gmail.com
+    position: Membre
+    pic: unknown 
+    social: 
+      - title: gitlab
+        url: https://gitlab.com/snakedye  
