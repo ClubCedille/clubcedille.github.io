@@ -27,6 +27,17 @@ people:
       - title: linkedin
         url: https://ca.linkedin.com/in/ygotame
 
+  jalil:
+    name: Jalil Bengoufa
+    email: jalilbengoufa@gmail.com
+    position: Membre<br/>Anciennement:&nbsp;Co-Capitaine
+    pic: jalil
+    social:
+      - title: linkedin
+        url: https://ca.linkedin.com/in/jalil-bengoufa-80a406b7
+      - title: github
+        url: https://github.com/jalilbengoufa
+
   duc:
     name: Van Duc Nguyen
     email:
