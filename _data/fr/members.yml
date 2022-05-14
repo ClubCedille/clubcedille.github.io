@@ -80,17 +80,6 @@ people:
       - title: github
         url: https://github.com/notarock
 
-  jalil:
-    name: Jalil Bengoufa
-    email: jalilbengoufa@gmail.com
-    position: Membre<br/>Anciennement:&nbsp;Co-Capitaine
-    pic: jalil
-    social:
-      - title: linkedin
-        url: https://ca.linkedin.com/in/jalil-bengoufa-80a406b7
-      - title: github
-        url: https://github.com/jalilbengoufa
-
   guyllaume:
     name: Guyllaume Rousseau
     email:
@@ -115,13 +104,6 @@ people:
         url: https://www.linkedin.com/in/vgorbov
       - title: github
         url: https://github.com/vyacheslav31
-
-  DanielKahn:
-    name: Daniel Kahn
-    email: daniel.kahn.1.ens.etsmtl.ca
-    position: Membre
-    pic: unknown
-    social:
 
   EdvinHonda:
     name: Edvin Honda
