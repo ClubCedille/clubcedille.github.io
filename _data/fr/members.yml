@@ -105,6 +105,17 @@ people:
     pic: unknown
     social:
 
+  simon:
+    name: Simon Boyer
+    email: simon.cedille.fuevz@8shield.net
+    position: Membre
+    pic: simon-boyer
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/simon-boyer
+      - title: github
+        url: https://github.com/Simon-Boyer
+
   slav:
     name: Vyacheslav Gorbov
     email: vyacheslav.gorbov.1@ens.etsmtl.ca
