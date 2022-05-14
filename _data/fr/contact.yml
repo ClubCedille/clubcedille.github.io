@@ -2,9 +2,6 @@ title: Contact
 description: Question? Commentaire? Envoyez-nous là par courriel ou venez nous rencontrer à notre local
 
 contact_informations:
-  phone:
-    title: Téléphone
-    value: (514) 396-8800 ext.7302
   email:
     title: Courriel
     value: cedille@etsmtl.net
