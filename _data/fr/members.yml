@@ -126,6 +126,17 @@ people:
         url: https://www.linkedin.com/in/edvin-honda-00b941220/
       - title: github
         url: https://github.com/EdvinHonda  
+        
+    BayesDiarra:
+    name: Bayes Diarra
+    email: bayes.diarra@outlook.com
+    position: Membre
+    pic: unknown 
+    social: 
+      - title: linkedin
+        url: https://www.linkedin.com/in/bayes-diarra-b67537177
+      - title: github
+        url: https://github.com/bayes-diarra 
 
   BryanNdjeutcha:
     name: Bryan Ndjeutcha
