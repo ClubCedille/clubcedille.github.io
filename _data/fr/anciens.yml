@@ -4,6 +4,28 @@ currentMembers: Anciens Membres
 currentDescription: "Les fondations du club"
 
 people:
+  nberbiche:
+    name: Nicolas Berbiche
+    email: nic.berbiche@gmail.com
+    position: Ancien Co-Capitaine
+    pic: nberbiche
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/nicolas-berbiche/
+      - title: github
+        url: https://github.com/berbiche
+
+  axdoomer:
+    name: Alexandre-Xavier Labonté-Lamoureux
+    email: alexandrexavier@live.ca
+    position: Ancien Membre et Mentor<br/>Précédemment:&nbsp;Trésorier&nbsp;et&nbsp;chef&nbsp;de&nbsp;projet
+    pic: axdoomer
+    social:
+      - title: linkedin
+        url: https://www.linkedin.com/in/axll/
+      - title: github
+        url: https://github.com/axdoomer
+
   lydia:
     name: Lydia Akrour  
     email: 
