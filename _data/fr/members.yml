@@ -27,17 +27,6 @@ people:
       - title: github
         url: https://github.com/ThomasCardin
 
-  cguertz:
-    name: Charles Guertin
-    email: charlesguertin@live.ca
-    position: Chef d'équipe SRE<br/>Ancien Capitaine 2019-2021
-    pic: cguertz
-    social:
-      - title: linkedin
-        url: https://www.linkedin.com/in/charles-guertin-495b6520/
-      - title: github
-        url: https://github.com/cguertin14/
-
   antoineabel:
     name: Antoine Abel
     email: abel.antoine999@gmail.com
